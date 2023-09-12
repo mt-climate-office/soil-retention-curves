@@ -1,0 +1,1717 @@
+station,Depth,MSE,model
+arskeogh,02,1.8797007915877653e-5,Fredlund-Xing Model
+arskeogh,08,1.4319261491992964e-5,Fredlund-Xing Model
+arskeogh,20,1.3178317166436748e-5,Fredlund-Xing Model
+arskeose,02,2.063316790245162e-4,Fredlund-Xing Model
+arskeose,08,7.737389417782558e-5,Fredlund-Xing Model
+arskeose,20,3.141957032406592e-5,Fredlund-Xing Model
+arskeosw,02,7.68215207933498e-6,Fredlund-Xing Model
+arskeosw,08,1.6958116551485686e-5,Fredlund-Xing Model
+arskeosw,20,2.071105560973121e-5,Fredlund-Xing Model
+bentlake,02,5.335558445004731e-6,Fredlund-Xing Model
+bentlake,08,4.378368671190453e-5,Fredlund-Xing Model
+bentlake,20,4.3308140292605535e-5,Fredlund-Xing Model
+blmbattl,02,4.3067841516601864e-5,Fredlund-Xing Model
+blmbattl,08,3.068774044828473e-5,Fredlund-Xing Model
+blmbattl,20,2.280647829723206e-4,Fredlund-Xing Model
+blmbelfr,04,6.929779892723631e-6,Fredlund-Xing Model
+blmbelfr,08,2.3734617751479883e-5,Fredlund-Xing Model
+blmbelfr,20,1.1468151434277669e-5,Fredlund-Xing Model
+blmbroad,02,3.6018235645535196e-5,Fredlund-Xing Model
+blmbroad,08,4.898123001613891e-5,Fredlund-Xing Model
+blmbroad,20,9.284753487756688e-5,Fredlund-Xing Model
+blmcapit,02,2.300652452786293e-5,Fredlund-Xing Model
+blmcapit,08,3.0427056936032493e-5,Fredlund-Xing Model
+blmcapit,20,1.91279477291875e-4,Fredlund-Xing Model
+blmglend,02,1.3286291281367946e-4,Fredlund-Xing Model
+blmglend,08,3.932987115267694e-5,Fredlund-Xing Model
+blmglend,20,3.604503952569303e-5,Fredlund-Xing Model
+blmglnor,02,2.8873570151556464e-4,Fredlund-Xing Model
+blmglnor,08,1.1982082744010362e-4,Fredlund-Xing Model
+blmglnor,20,3.245502629999315e-5,Fredlund-Xing Model
+blmhardi,02,1.0453781701100137e-4,Fredlund-Xing Model
+blmhardi,08,3.502145155408499e-5,Fredlund-Xing Model
+blmhardi,20,5.320517524782243e-5,Fredlund-Xing Model
+blmhavre,02,1.3061492787089308e-4,Fredlund-Xing Model
+blmhavre,08,2.1563236429224455e-5,Fredlund-Xing Model
+blmhavre,20,1.205623163375283e-4,Fredlund-Xing Model
+blmmatad,02,3.935434667727624e-6,Fredlund-Xing Model
+blmmatad,08,1.9090077889088623e-4,Fredlund-Xing Model
+blmmatad,20,4.497184129383044e-5,Fredlund-Xing Model
+blmplevn,02,1.880056920266164e-5,Fredlund-Xing Model
+blmplevn,08,2.4252307073352356e-5,Fredlund-Xing Model
+blmplevn,20,5.79255980550072e-6,Fredlund-Xing Model
+blmpumpk,02,1.729240194409954e-5,Fredlund-Xing Model
+blmpumpk,08,8.688524083046803e-5,Fredlund-Xing Model
+blmpumpk,20,4.228138886452727e-5,Fredlund-Xing Model
+blmround,02,1.1524216848339284e-4,Fredlund-Xing Model
+blmround,08,4.0184319255915026e-5,Fredlund-Xing Model
+blmround,20,4.290521522080104e-5,Fredlund-Xing Model
+blmroyno,04,5.9950432562549704e-5,Fredlund-Xing Model
+blmroyno,08,8.205249922817341e-5,Fredlund-Xing Model
+blmroyno,20,1.0782539552373576e-4,Fredlund-Xing Model
+blmterry,02,4.231784508702125e-5,Fredlund-Xing Model
+blmterry,08,4.709324149550365e-6,Fredlund-Xing Model
+blmterry,20,7.058878445211405e-5,Fredlund-Xing Model
+blmwarre,02,1.3093238574196336e-5,Fredlund-Xing Model
+blmwarre,08,6.850899010115289e-6,Fredlund-Xing Model
+blmwarre,20,1.152507723134702e-5,Fredlund-Xing Model
+conradmt,02,3.663419161812551e-5,Fredlund-Xing Model
+conradmt,08,4.5315464850447525e-5,Fredlund-Xing Model
+conradmt,20,2.1565253659996187e-5,Fredlund-Xing Model
+ftbentcb,02,8.410738633011845e-6,Fredlund-Xing Model
+ftbentcb,08,7.036451865474157e-6,Fredlund-Xing Model
+ftbentcb,20,6.609899619272544e-6,Fredlund-Xing Model
+lomawood,02,2.6181408831516972e-5,Fredlund-Xing Model
+lomawood,08,4.709339266618456e-6,Fredlund-Xing Model
+lomawood,20,1.3166921150545158e-5,Fredlund-Xing Model
+mdabench,02,1.6941445471273337e-4,Fredlund-Xing Model
+mdabench,08,6.284635386696127e-5,Fredlund-Xing Model
+mdabench,20,1.317196831906285e-5,Fredlund-Xing Model
+mdacasca,04,4.477844470745998e-5,Fredlund-Xing Model
+mdacasca,08,7.892204217697222e-6,Fredlund-Xing Model
+mdacasca,20,2.000702894824423e-5,Fredlund-Xing Model
+mdachine,02,3.6191110318468566e-5,Fredlund-Xing Model
+mdachine,08,3.498530444599023e-5,Fredlund-Xing Model
+mdachine,20,6.762145754322154e-5,Fredlund-Xing Model
+mdachote,02,3.0538991008058504e-5,Fredlund-Xing Model
+mdachote,08,5.213356400509965e-5,Fredlund-Xing Model
+mdachote,20,1.3858568344029184e-4,Fredlund-Xing Model
+mdadillo,04,1.2375407390563997e-4,Fredlund-Xing Model
+mdadillo,08,7.774200086819899e-5,Fredlund-Xing Model
+mdadillo,20,9.840337296143082e-4,Fredlund-Xing Model
+mdaedgar,02,1.0068558744402714e-4,Fredlund-Xing Model
+mdaedgar,08,1.2797207746589498e-5,Fredlund-Xing Model
+mdaedgar,20,5.587069489617192e-6,Fredlund-Xing Model
+mdafroid,04,6.292537687852144e-5,Fredlund-Xing Model
+mdafroid,08,9.17917058313622e-6,Fredlund-Xing Model
+mdafroid,20,5.7376845811003593e-5,Fredlund-Xing Model
+mdaglidf,02,3.40707767883347e-6,Fredlund-Xing Model
+mdaglidf,08,9.684994531765256e-5,Fredlund-Xing Model
+mdaglidf,20,6.609367506377511e-6,Fredlund-Xing Model
+mdahardi,04,1.0543216407907657e-5,Fredlund-Xing Model
+mdahardi,08,9.557190849112072e-5,Fredlund-Xing Model
+mdahardi,20,6.42210583933364e-6,Fredlund-Xing Model
+mdahogel,02,1.8494682497256304e-5,Fredlund-Xing Model
+mdahogel,08,1.601986810035232e-5,Fredlund-Xing Model
+mdahogel,20,1.0094398801726524e-5,Fredlund-Xing Model
+mdaledge,04,2.4521861983084273e-5,Fredlund-Xing Model
+mdaledge,08,1.4212832330264671e-5,Fredlund-Xing Model
+mdaledge,20,2.19215446196681e-4,Fredlund-Xing Model
+mdamalta,04,2.45020971962941e-4,Fredlund-Xing Model
+mdamalta,08,1.8439699587850653e-4,Fredlund-Xing Model
+mdamalta,20,2.2654552030934463e-4,Fredlund-Xing Model
+mdamanha,04,1.0268453650581252e-4,Fredlund-Xing Model
+mdamanha,08,5.796184843333131e-4,Fredlund-Xing Model
+mdamanha,20,4.825713436000097e-5,Fredlund-Xing Model
+mdamiles,04,2.557961271988589e-5,Fredlund-Xing Model
+mdamiles,08,7.171385691450228e-5,Fredlund-Xing Model
+mdamiles,20,9.56534871566472e-5,Fredlund-Xing Model
+mdaoilmo,04,2.6424245096885255e-5,Fredlund-Xing Model
+mdaoilmo,08,3.0395608282932544e-5,Fredlund-Xing Model
+mdaoilmo,20,8.155030213303241e-6,Fredlund-Xing Model
+mdapower,02,5.4540069984626685e-5,Fredlund-Xing Model
+mdapower,08,6.373584011529599e-5,Fredlund-Xing Model
+mdapower,20,1.226013663312802e-5,Fredlund-Xing Model
+mdascoby,04,3.21083781832387e-5,Fredlund-Xing Model
+mdascoby,08,1.6367247041079814e-5,Fredlund-Xing Model
+mdascoby,20,3.4163721456189487e-6,Fredlund-Xing Model
+mdatost2,02,3.033500252500901e-5,Fredlund-Xing Model
+mdatost2,08,1.4144546722396026e-5,Fredlund-Xing Model
+mdatost2,20,1.3680036028249024e-5,Fredlund-Xing Model
+mdatwinb,02,6.914342961163663e-6,Fredlund-Xing Model
+mdatwinb,08,1.873243012146743e-5,Fredlund-Xing Model
+mdatwinb,20,1.774510305443407e-5,Fredlund-Xing Model
+moltwest,02,2.455091941009584e-5,Fredlund-Xing Model
+moltwest,08,0.0127695057191798,Fredlund-Xing Model
+moltwest,20,1.7529410529777437e-5,Fredlund-Xing Model
+namupper,02,2.6519723466954475e-6,Fredlund-Xing Model
+namupper,08,2.2719075828361013e-5,Fredlund-Xing Model
+namupper,20,4.696205100217571e-5,Fredlund-Xing Model
+raplejen,02,1.3741262147448432e-4,Fredlund-Xing Model
+raplejen,08,6.416753935473076e-6,Fredlund-Xing Model
+raplejen,20,2.4974558553067694e-5,Fredlund-Xing Model
+reedpoin,02,6.113742086311124e-6,Fredlund-Xing Model
+reedpoin,08,6.976331487355687e-6,Fredlund-Xing Model
+reedpoin,20,1.2273432016042258e-5,Fredlund-Xing Model
+sidneymt,02,2.9857495147130944e-5,Fredlund-Xing Model
+sidneymt,08,2.4763207658724407e-6,Fredlund-Xing Model
+sidneymt,20,6.975742954130369e-6,Fredlund-Xing Model
+turekran,02,2.3260998936105737e-5,Fredlund-Xing Model
+turekran,08,1.136149998674319e-4,Fredlund-Xing Model
+turekran,20,5.366214646501082e-6,Fredlund-Xing Model
+wrsround,02,2.8453667708517584e-6,Fredlund-Xing Model
+wrsround,08,8.313952300275942e-6,Fredlund-Xing Model
+wrsround,20,2.07438541008469e-5,Fredlund-Xing Model
+wsrabsaw,02,1.1684516604977516e-5,Fredlund-Xing Model
+wsrabsaw,08,6.3878972714591285e-6,Fredlund-Xing Model
+wsrabsaw,20,2.0126382111059025e-4,Fredlund-Xing Model
+wsrboydw,02,1.0936075457964531e-5,Fredlund-Xing Model
+wsrboydw,08,7.219793996862499e-6,Fredlund-Xing Model
+wsrboydw,20,1.745701998474701e-5,Fredlund-Xing Model
+wsrbroad,02,3.352819971808688e-5,Fredlund-Xing Model
+wsrbroad,08,8.565670631459372e-5,Fredlund-Xing Model
+wsrbroad,20,7.003725711983419e-6,Fredlund-Xing Model
+wsrmelvi,02,4.10787808782101e-6,Fredlund-Xing Model
+wsrmelvi,08,3.86670961358561e-6,Fredlund-Xing Model
+wsrmelvi,20,5.019676936815028e-6,Fredlund-Xing Model
+arskeogh,02,1.8797007915877653e-5,Fredlund-Xing Model
+arskeogh,08,1.4319261491992964e-5,Fredlund-Xing Model
+arskeogh,20,1.3178317166436748e-5,Fredlund-Xing Model
+arskeose,02,2.063316790245162e-4,Fredlund-Xing Model
+arskeose,08,7.737389417782558e-5,Fredlund-Xing Model
+arskeose,20,3.141957032406592e-5,Fredlund-Xing Model
+arskeosw,02,7.68215207933498e-6,Fredlund-Xing Model
+arskeosw,08,1.6958116551485686e-5,Fredlund-Xing Model
+arskeosw,20,2.071105560973121e-5,Fredlund-Xing Model
+bentlake,02,5.335558445004731e-6,Fredlund-Xing Model
+bentlake,08,4.378368671190453e-5,Fredlund-Xing Model
+bentlake,20,4.3308140292605535e-5,Fredlund-Xing Model
+blmbattl,02,4.3067841516601864e-5,Fredlund-Xing Model
+blmbattl,08,3.068774044828473e-5,Fredlund-Xing Model
+blmbattl,20,2.280647829723206e-4,Fredlund-Xing Model
+blmbelfr,04,6.929779892723631e-6,Fredlund-Xing Model
+blmbelfr,08,2.3734617751479883e-5,Fredlund-Xing Model
+blmbelfr,20,1.1468151434277669e-5,Fredlund-Xing Model
+blmbroad,02,3.6018235645535196e-5,Fredlund-Xing Model
+blmbroad,08,4.898123001613891e-5,Fredlund-Xing Model
+blmbroad,20,9.284753487756688e-5,Fredlund-Xing Model
+blmcapit,02,2.300652452786293e-5,Fredlund-Xing Model
+blmcapit,08,3.0427056936032493e-5,Fredlund-Xing Model
+blmcapit,20,1.91279477291875e-4,Fredlund-Xing Model
+blmglend,02,1.3286291281367946e-4,Fredlund-Xing Model
+blmglend,08,3.932987115267694e-5,Fredlund-Xing Model
+blmglend,20,3.604503952569303e-5,Fredlund-Xing Model
+blmglnor,02,2.8873570151556464e-4,Fredlund-Xing Model
+blmglnor,08,1.1982082744010362e-4,Fredlund-Xing Model
+blmglnor,20,3.245502629999315e-5,Fredlund-Xing Model
+blmhardi,02,1.0453781701100137e-4,Fredlund-Xing Model
+blmhardi,08,3.502145155408499e-5,Fredlund-Xing Model
+blmhardi,20,5.320517524782243e-5,Fredlund-Xing Model
+blmhavre,02,1.3061492787089308e-4,Fredlund-Xing Model
+blmhavre,08,2.1563236429224455e-5,Fredlund-Xing Model
+blmhavre,20,1.205623163375283e-4,Fredlund-Xing Model
+blmmatad,02,3.935434667727624e-6,Fredlund-Xing Model
+blmmatad,08,1.9090077889088623e-4,Fredlund-Xing Model
+blmmatad,20,4.497184129383044e-5,Fredlund-Xing Model
+blmplevn,02,1.880056920266164e-5,Fredlund-Xing Model
+blmplevn,08,2.4252307073352356e-5,Fredlund-Xing Model
+blmplevn,20,5.79255980550072e-6,Fredlund-Xing Model
+blmpumpk,02,1.729240194409954e-5,Fredlund-Xing Model
+blmpumpk,08,8.688524083046803e-5,Fredlund-Xing Model
+blmpumpk,20,4.228138886452727e-5,Fredlund-Xing Model
+blmround,02,1.1524216848339284e-4,Fredlund-Xing Model
+blmround,08,4.0184319255915026e-5,Fredlund-Xing Model
+blmround,20,4.290521522080104e-5,Fredlund-Xing Model
+blmroyno,04,5.9950432562549704e-5,Fredlund-Xing Model
+blmroyno,08,8.205249922817341e-5,Fredlund-Xing Model
+blmroyno,20,1.0782539552373576e-4,Fredlund-Xing Model
+blmterry,02,4.231784508702125e-5,Fredlund-Xing Model
+blmterry,08,4.709324149550365e-6,Fredlund-Xing Model
+blmterry,20,7.058878445211405e-5,Fredlund-Xing Model
+blmwarre,02,1.3093238574196336e-5,Fredlund-Xing Model
+blmwarre,08,6.850899010115289e-6,Fredlund-Xing Model
+blmwarre,20,1.152507723134702e-5,Fredlund-Xing Model
+conradmt,02,3.663419161812551e-5,Fredlund-Xing Model
+conradmt,08,4.5315464850447525e-5,Fredlund-Xing Model
+conradmt,20,2.1565253659996187e-5,Fredlund-Xing Model
+ftbentcb,02,8.410738633011845e-6,Fredlund-Xing Model
+ftbentcb,08,7.036451865474157e-6,Fredlund-Xing Model
+ftbentcb,20,6.609899619272544e-6,Fredlund-Xing Model
+lomawood,02,2.6181408831516972e-5,Fredlund-Xing Model
+lomawood,08,4.709339266618456e-6,Fredlund-Xing Model
+lomawood,20,1.3166921150545158e-5,Fredlund-Xing Model
+mdabench,02,1.6941445471273337e-4,Fredlund-Xing Model
+mdabench,08,6.284635386696127e-5,Fredlund-Xing Model
+mdabench,20,1.317196831906285e-5,Fredlund-Xing Model
+mdacasca,04,4.477844470745998e-5,Fredlund-Xing Model
+mdacasca,08,7.892204217697222e-6,Fredlund-Xing Model
+mdacasca,20,2.000702894824423e-5,Fredlund-Xing Model
+mdachine,02,3.6191110318468566e-5,Fredlund-Xing Model
+mdachine,08,3.498530444599023e-5,Fredlund-Xing Model
+mdachine,20,6.762145754322154e-5,Fredlund-Xing Model
+mdachote,02,3.0538991008058504e-5,Fredlund-Xing Model
+mdachote,08,5.213356400509965e-5,Fredlund-Xing Model
+mdachote,20,1.3858568344029184e-4,Fredlund-Xing Model
+mdadillo,04,1.2375407390563997e-4,Fredlund-Xing Model
+mdadillo,08,7.774200086819899e-5,Fredlund-Xing Model
+mdadillo,20,9.840337296143082e-4,Fredlund-Xing Model
+mdaedgar,02,1.0068558744402714e-4,Fredlund-Xing Model
+mdaedgar,08,1.2797207746589498e-5,Fredlund-Xing Model
+mdaedgar,20,5.587069489617192e-6,Fredlund-Xing Model
+mdafroid,04,6.292537687852144e-5,Fredlund-Xing Model
+mdafroid,08,9.17917058313622e-6,Fredlund-Xing Model
+mdafroid,20,5.7376845811003593e-5,Fredlund-Xing Model
+mdaglidf,02,3.40707767883347e-6,Fredlund-Xing Model
+mdaglidf,08,9.684994531765256e-5,Fredlund-Xing Model
+mdaglidf,20,6.609367506377511e-6,Fredlund-Xing Model
+mdahardi,04,1.0543216407907657e-5,Fredlund-Xing Model
+mdahardi,08,9.557190849112072e-5,Fredlund-Xing Model
+mdahardi,20,6.42210583933364e-6,Fredlund-Xing Model
+mdahogel,02,1.8494682497256304e-5,Fredlund-Xing Model
+mdahogel,08,1.601986810035232e-5,Fredlund-Xing Model
+mdahogel,20,1.0094398801726524e-5,Fredlund-Xing Model
+mdaledge,04,2.4521861983084273e-5,Fredlund-Xing Model
+mdaledge,08,1.4212832330264671e-5,Fredlund-Xing Model
+mdaledge,20,2.19215446196681e-4,Fredlund-Xing Model
+mdamalta,04,2.45020971962941e-4,Fredlund-Xing Model
+mdamalta,08,1.8439699587850653e-4,Fredlund-Xing Model
+mdamalta,20,2.2654552030934463e-4,Fredlund-Xing Model
+mdamanha,04,1.0268453650581252e-4,Fredlund-Xing Model
+mdamanha,08,5.796184843333131e-4,Fredlund-Xing Model
+mdamanha,20,4.825713436000097e-5,Fredlund-Xing Model
+mdamiles,04,2.557961271988589e-5,Fredlund-Xing Model
+mdamiles,08,7.171385691450228e-5,Fredlund-Xing Model
+mdamiles,20,9.56534871566472e-5,Fredlund-Xing Model
+mdaoilmo,04,2.6424245096885255e-5,Fredlund-Xing Model
+mdaoilmo,08,3.0395608282932544e-5,Fredlund-Xing Model
+mdaoilmo,20,8.155030213303241e-6,Fredlund-Xing Model
+mdapower,02,5.4540069984626685e-5,Fredlund-Xing Model
+mdapower,08,6.373584011529599e-5,Fredlund-Xing Model
+mdapower,20,1.226013663312802e-5,Fredlund-Xing Model
+mdascoby,04,3.21083781832387e-5,Fredlund-Xing Model
+mdascoby,08,1.6367247041079814e-5,Fredlund-Xing Model
+mdascoby,20,3.4163721456189487e-6,Fredlund-Xing Model
+mdatost2,02,3.033500252500901e-5,Fredlund-Xing Model
+mdatost2,08,1.4144546722396026e-5,Fredlund-Xing Model
+mdatost2,20,1.3680036028249024e-5,Fredlund-Xing Model
+mdatwinb,02,6.914342961163663e-6,Fredlund-Xing Model
+mdatwinb,08,1.873243012146743e-5,Fredlund-Xing Model
+mdatwinb,20,1.774510305443407e-5,Fredlund-Xing Model
+moltwest,02,2.455091941009584e-5,Fredlund-Xing Model
+moltwest,08,0.0127695057191798,Fredlund-Xing Model
+moltwest,20,1.7529410529777437e-5,Fredlund-Xing Model
+namupper,02,2.6519723466954475e-6,Fredlund-Xing Model
+namupper,08,2.2719075828361013e-5,Fredlund-Xing Model
+namupper,20,4.696205100217571e-5,Fredlund-Xing Model
+raplejen,02,1.3741262147448432e-4,Fredlund-Xing Model
+raplejen,08,6.416753935473076e-6,Fredlund-Xing Model
+raplejen,20,2.4974558553067694e-5,Fredlund-Xing Model
+reedpoin,02,6.113742086311124e-6,Fredlund-Xing Model
+reedpoin,08,6.976331487355687e-6,Fredlund-Xing Model
+reedpoin,20,1.2273432016042258e-5,Fredlund-Xing Model
+sidneymt,02,2.9857495147130944e-5,Fredlund-Xing Model
+sidneymt,08,2.4763207658724407e-6,Fredlund-Xing Model
+sidneymt,20,6.975742954130369e-6,Fredlund-Xing Model
+turekran,02,2.3260998936105737e-5,Fredlund-Xing Model
+turekran,08,1.136149998674319e-4,Fredlund-Xing Model
+turekran,20,5.366214646501082e-6,Fredlund-Xing Model
+wrsround,02,2.8453667708517584e-6,Fredlund-Xing Model
+wrsround,08,8.313952300275942e-6,Fredlund-Xing Model
+wrsround,20,2.07438541008469e-5,Fredlund-Xing Model
+wsrabsaw,02,1.1684516604977516e-5,Fredlund-Xing Model
+wsrabsaw,08,6.3878972714591285e-6,Fredlund-Xing Model
+wsrabsaw,20,2.0126382111059025e-4,Fredlund-Xing Model
+wsrboydw,02,1.0936075457964531e-5,Fredlund-Xing Model
+wsrboydw,08,7.219793996862499e-6,Fredlund-Xing Model
+wsrboydw,20,1.745701998474701e-5,Fredlund-Xing Model
+wsrbroad,02,3.352819971808688e-5,Fredlund-Xing Model
+wsrbroad,08,8.565670631459372e-5,Fredlund-Xing Model
+wsrbroad,20,7.003725711983419e-6,Fredlund-Xing Model
+wsrmelvi,02,4.10787808782101e-6,Fredlund-Xing Model
+wsrmelvi,08,3.86670961358561e-6,Fredlund-Xing Model
+wsrmelvi,20,5.019676936815028e-6,Fredlund-Xing Model
+arskeogh,02,1.8797007915877653e-5,Fredlund-Xing Model
+arskeogh,08,1.4319261491992964e-5,Fredlund-Xing Model
+arskeogh,20,1.3178317166436748e-5,Fredlund-Xing Model
+arskeose,02,2.063316790245162e-4,Fredlund-Xing Model
+arskeose,08,7.737389417782558e-5,Fredlund-Xing Model
+arskeose,20,3.141957032406592e-5,Fredlund-Xing Model
+arskeosw,02,7.68215207933498e-6,Fredlund-Xing Model
+arskeosw,08,1.6958116551485686e-5,Fredlund-Xing Model
+arskeosw,20,2.071105560973121e-5,Fredlund-Xing Model
+bentlake,02,5.335558445004731e-6,Fredlund-Xing Model
+bentlake,08,4.378368671190453e-5,Fredlund-Xing Model
+bentlake,20,4.3308140292605535e-5,Fredlund-Xing Model
+blmbattl,02,4.3067841516601864e-5,Fredlund-Xing Model
+blmbattl,08,3.068774044828473e-5,Fredlund-Xing Model
+blmbattl,20,2.280647829723206e-4,Fredlund-Xing Model
+blmbelfr,04,6.929779892723631e-6,Fredlund-Xing Model
+blmbelfr,08,2.3734617751479883e-5,Fredlund-Xing Model
+blmbelfr,20,1.1468151434277669e-5,Fredlund-Xing Model
+blmbroad,02,3.6018235645535196e-5,Fredlund-Xing Model
+blmbroad,08,4.898123001613891e-5,Fredlund-Xing Model
+blmbroad,20,9.284753487756688e-5,Fredlund-Xing Model
+blmcapit,02,2.300652452786293e-5,Fredlund-Xing Model
+blmcapit,08,3.0427056936032493e-5,Fredlund-Xing Model
+blmcapit,20,1.91279477291875e-4,Fredlund-Xing Model
+blmglend,02,1.3286291281367946e-4,Fredlund-Xing Model
+blmglend,08,3.932987115267694e-5,Fredlund-Xing Model
+blmglend,20,3.604503952569303e-5,Fredlund-Xing Model
+blmglnor,02,2.8873570151556464e-4,Fredlund-Xing Model
+blmglnor,08,1.1982082744010362e-4,Fredlund-Xing Model
+blmglnor,20,3.245502629999315e-5,Fredlund-Xing Model
+blmhardi,02,1.0453781701100137e-4,Fredlund-Xing Model
+blmhardi,08,3.502145155408499e-5,Fredlund-Xing Model
+blmhardi,20,5.320517524782243e-5,Fredlund-Xing Model
+blmhavre,02,1.3061492787089308e-4,Fredlund-Xing Model
+blmhavre,08,2.1563236429224455e-5,Fredlund-Xing Model
+blmhavre,20,1.205623163375283e-4,Fredlund-Xing Model
+blmmatad,02,3.935434667727624e-6,Fredlund-Xing Model
+blmmatad,08,1.9090077889088623e-4,Fredlund-Xing Model
+blmmatad,20,4.497184129383044e-5,Fredlund-Xing Model
+blmplevn,02,1.880056920266164e-5,Fredlund-Xing Model
+blmplevn,08,2.4252307073352356e-5,Fredlund-Xing Model
+blmplevn,20,5.79255980550072e-6,Fredlund-Xing Model
+blmpumpk,02,1.729240194409954e-5,Fredlund-Xing Model
+blmpumpk,08,8.688524083046803e-5,Fredlund-Xing Model
+blmpumpk,20,4.228138886452727e-5,Fredlund-Xing Model
+blmround,02,1.1524216848339284e-4,Fredlund-Xing Model
+blmround,08,4.0184319255915026e-5,Fredlund-Xing Model
+blmround,20,4.290521522080104e-5,Fredlund-Xing Model
+blmroyno,04,5.9950432562549704e-5,Fredlund-Xing Model
+blmroyno,08,8.205249922817341e-5,Fredlund-Xing Model
+blmroyno,20,1.0782539552373576e-4,Fredlund-Xing Model
+blmterry,02,4.231784508702125e-5,Fredlund-Xing Model
+blmterry,08,4.709324149550365e-6,Fredlund-Xing Model
+blmterry,20,7.058878445211405e-5,Fredlund-Xing Model
+blmwarre,02,1.3093238574196336e-5,Fredlund-Xing Model
+blmwarre,08,6.850899010115289e-6,Fredlund-Xing Model
+blmwarre,20,1.152507723134702e-5,Fredlund-Xing Model
+conradmt,02,3.663419161812551e-5,Fredlund-Xing Model
+conradmt,08,4.5315464850447525e-5,Fredlund-Xing Model
+conradmt,20,2.1565253659996187e-5,Fredlund-Xing Model
+ftbentcb,02,8.410738633011845e-6,Fredlund-Xing Model
+ftbentcb,08,7.036451865474157e-6,Fredlund-Xing Model
+ftbentcb,20,6.609899619272544e-6,Fredlund-Xing Model
+lomawood,02,2.6181408831516972e-5,Fredlund-Xing Model
+lomawood,08,4.709339266618456e-6,Fredlund-Xing Model
+lomawood,20,1.3166921150545158e-5,Fredlund-Xing Model
+mdabench,02,1.6941445471273337e-4,Fredlund-Xing Model
+mdabench,08,6.284635386696127e-5,Fredlund-Xing Model
+mdabench,20,1.317196831906285e-5,Fredlund-Xing Model
+mdacasca,04,4.477844470745998e-5,Fredlund-Xing Model
+mdacasca,08,7.892204217697222e-6,Fredlund-Xing Model
+mdacasca,20,2.000702894824423e-5,Fredlund-Xing Model
+mdachine,02,3.6191110318468566e-5,Fredlund-Xing Model
+mdachine,08,3.498530444599023e-5,Fredlund-Xing Model
+mdachine,20,6.762145754322154e-5,Fredlund-Xing Model
+mdachote,02,3.0538991008058504e-5,Fredlund-Xing Model
+mdachote,08,5.213356400509965e-5,Fredlund-Xing Model
+mdachote,20,1.3858568344029184e-4,Fredlund-Xing Model
+mdadillo,04,1.2375407390563997e-4,Fredlund-Xing Model
+mdadillo,08,7.774200086819899e-5,Fredlund-Xing Model
+mdadillo,20,9.840337296143082e-4,Fredlund-Xing Model
+mdaedgar,02,1.0068558744402714e-4,Fredlund-Xing Model
+mdaedgar,08,1.2797207746589498e-5,Fredlund-Xing Model
+mdaedgar,20,5.587069489617192e-6,Fredlund-Xing Model
+mdafroid,04,6.292537687852144e-5,Fredlund-Xing Model
+mdafroid,08,9.17917058313622e-6,Fredlund-Xing Model
+mdafroid,20,5.7376845811003593e-5,Fredlund-Xing Model
+mdaglidf,02,3.40707767883347e-6,Fredlund-Xing Model
+mdaglidf,08,9.684994531765256e-5,Fredlund-Xing Model
+mdaglidf,20,6.609367506377511e-6,Fredlund-Xing Model
+mdahardi,04,1.0543216407907657e-5,Fredlund-Xing Model
+mdahardi,08,9.557190849112072e-5,Fredlund-Xing Model
+mdahardi,20,6.42210583933364e-6,Fredlund-Xing Model
+mdahogel,02,1.8494682497256304e-5,Fredlund-Xing Model
+mdahogel,08,1.601986810035232e-5,Fredlund-Xing Model
+mdahogel,20,1.0094398801726524e-5,Fredlund-Xing Model
+mdaledge,04,2.4521861983084273e-5,Fredlund-Xing Model
+mdaledge,08,1.4212832330264671e-5,Fredlund-Xing Model
+mdaledge,20,2.19215446196681e-4,Fredlund-Xing Model
+mdamalta,04,2.45020971962941e-4,Fredlund-Xing Model
+mdamalta,08,1.8439699587850653e-4,Fredlund-Xing Model
+mdamalta,20,2.2654552030934463e-4,Fredlund-Xing Model
+mdamanha,04,1.0268453650581252e-4,Fredlund-Xing Model
+mdamanha,08,5.796184843333131e-4,Fredlund-Xing Model
+mdamanha,20,4.825713436000097e-5,Fredlund-Xing Model
+mdamiles,04,2.557961271988589e-5,Fredlund-Xing Model
+mdamiles,08,7.171385691450228e-5,Fredlund-Xing Model
+mdamiles,20,9.56534871566472e-5,Fredlund-Xing Model
+mdaoilmo,04,2.6424245096885255e-5,Fredlund-Xing Model
+mdaoilmo,08,3.0395608282932544e-5,Fredlund-Xing Model
+mdaoilmo,20,8.155030213303241e-6,Fredlund-Xing Model
+mdapower,02,5.4540069984626685e-5,Fredlund-Xing Model
+mdapower,08,6.373584011529599e-5,Fredlund-Xing Model
+mdapower,20,1.226013663312802e-5,Fredlund-Xing Model
+mdascoby,04,3.21083781832387e-5,Fredlund-Xing Model
+mdascoby,08,1.6367247041079814e-5,Fredlund-Xing Model
+mdascoby,20,3.4163721456189487e-6,Fredlund-Xing Model
+mdatost2,02,3.033500252500901e-5,Fredlund-Xing Model
+mdatost2,08,1.4144546722396026e-5,Fredlund-Xing Model
+mdatost2,20,1.3680036028249024e-5,Fredlund-Xing Model
+mdatwinb,02,6.914342961163663e-6,Fredlund-Xing Model
+mdatwinb,08,1.873243012146743e-5,Fredlund-Xing Model
+mdatwinb,20,1.774510305443407e-5,Fredlund-Xing Model
+moltwest,02,2.455091941009584e-5,Fredlund-Xing Model
+moltwest,08,0.0127695057191798,Fredlund-Xing Model
+moltwest,20,1.7529410529777437e-5,Fredlund-Xing Model
+namupper,02,2.6519723466954475e-6,Fredlund-Xing Model
+namupper,08,2.2719075828361013e-5,Fredlund-Xing Model
+namupper,20,4.696205100217571e-5,Fredlund-Xing Model
+raplejen,02,1.3741262147448432e-4,Fredlund-Xing Model
+raplejen,08,6.416753935473076e-6,Fredlund-Xing Model
+raplejen,20,2.4974558553067694e-5,Fredlund-Xing Model
+reedpoin,02,6.113742086311124e-6,Fredlund-Xing Model
+reedpoin,08,6.976331487355687e-6,Fredlund-Xing Model
+reedpoin,20,1.2273432016042258e-5,Fredlund-Xing Model
+sidneymt,02,2.9857495147130944e-5,Fredlund-Xing Model
+sidneymt,08,2.4763207658724407e-6,Fredlund-Xing Model
+sidneymt,20,6.975742954130369e-6,Fredlund-Xing Model
+turekran,02,2.3260998936105737e-5,Fredlund-Xing Model
+turekran,08,1.136149998674319e-4,Fredlund-Xing Model
+turekran,20,5.366214646501082e-6,Fredlund-Xing Model
+wrsround,02,2.8453667708517584e-6,Fredlund-Xing Model
+wrsround,08,8.313952300275942e-6,Fredlund-Xing Model
+wrsround,20,2.07438541008469e-5,Fredlund-Xing Model
+wsrabsaw,02,1.1684516604977516e-5,Fredlund-Xing Model
+wsrabsaw,08,6.3878972714591285e-6,Fredlund-Xing Model
+wsrabsaw,20,2.0126382111059025e-4,Fredlund-Xing Model
+wsrboydw,02,1.0936075457964531e-5,Fredlund-Xing Model
+wsrboydw,08,7.219793996862499e-6,Fredlund-Xing Model
+wsrboydw,20,1.745701998474701e-5,Fredlund-Xing Model
+wsrbroad,02,3.352819971808688e-5,Fredlund-Xing Model
+wsrbroad,08,8.565670631459372e-5,Fredlund-Xing Model
+wsrbroad,20,7.003725711983419e-6,Fredlund-Xing Model
+wsrmelvi,02,4.10787808782101e-6,Fredlund-Xing Model
+wsrmelvi,08,3.86670961358561e-6,Fredlund-Xing Model
+wsrmelvi,20,5.019676936815028e-6,Fredlund-Xing Model
+arskeogh,02,1.8797007915877653e-5,Fredlund-Xing Model
+arskeogh,08,1.4319261491992964e-5,Fredlund-Xing Model
+arskeogh,20,1.3178317166436748e-5,Fredlund-Xing Model
+arskeose,02,2.063316790245162e-4,Fredlund-Xing Model
+arskeose,08,7.737389417782558e-5,Fredlund-Xing Model
+arskeose,20,3.141957032406592e-5,Fredlund-Xing Model
+arskeosw,02,7.68215207933498e-6,Fredlund-Xing Model
+arskeosw,08,1.6958116551485686e-5,Fredlund-Xing Model
+arskeosw,20,2.071105560973121e-5,Fredlund-Xing Model
+bentlake,02,5.335558445004731e-6,Fredlund-Xing Model
+bentlake,08,4.378368671190453e-5,Fredlund-Xing Model
+bentlake,20,4.3308140292605535e-5,Fredlund-Xing Model
+blmbattl,02,4.3067841516601864e-5,Fredlund-Xing Model
+blmbattl,08,3.068774044828473e-5,Fredlund-Xing Model
+blmbattl,20,2.280647829723206e-4,Fredlund-Xing Model
+blmbelfr,04,6.929779892723631e-6,Fredlund-Xing Model
+blmbelfr,08,2.3734617751479883e-5,Fredlund-Xing Model
+blmbelfr,20,1.1468151434277669e-5,Fredlund-Xing Model
+blmbroad,02,3.6018235645535196e-5,Fredlund-Xing Model
+blmbroad,08,4.898123001613891e-5,Fredlund-Xing Model
+blmbroad,20,9.284753487756688e-5,Fredlund-Xing Model
+blmcapit,02,2.300652452786293e-5,Fredlund-Xing Model
+blmcapit,08,3.0427056936032493e-5,Fredlund-Xing Model
+blmcapit,20,1.91279477291875e-4,Fredlund-Xing Model
+blmglend,02,1.3286291281367946e-4,Fredlund-Xing Model
+blmglend,08,3.932987115267694e-5,Fredlund-Xing Model
+blmglend,20,3.604503952569303e-5,Fredlund-Xing Model
+blmglnor,02,2.8873570151556464e-4,Fredlund-Xing Model
+blmglnor,08,1.1982082744010362e-4,Fredlund-Xing Model
+blmglnor,20,3.245502629999315e-5,Fredlund-Xing Model
+blmhardi,02,1.0453781701100137e-4,Fredlund-Xing Model
+blmhardi,08,3.502145155408499e-5,Fredlund-Xing Model
+blmhardi,20,5.320517524782243e-5,Fredlund-Xing Model
+blmhavre,02,1.3061492787089308e-4,Fredlund-Xing Model
+blmhavre,08,2.1563236429224455e-5,Fredlund-Xing Model
+blmhavre,20,1.205623163375283e-4,Fredlund-Xing Model
+blmmatad,02,3.935434667727624e-6,Fredlund-Xing Model
+blmmatad,08,1.9090077889088623e-4,Fredlund-Xing Model
+blmmatad,20,4.497184129383044e-5,Fredlund-Xing Model
+blmplevn,02,1.880056920266164e-5,Fredlund-Xing Model
+blmplevn,08,2.4252307073352356e-5,Fredlund-Xing Model
+blmplevn,20,5.79255980550072e-6,Fredlund-Xing Model
+blmpumpk,02,1.729240194409954e-5,Fredlund-Xing Model
+blmpumpk,08,8.688524083046803e-5,Fredlund-Xing Model
+blmpumpk,20,4.228138886452727e-5,Fredlund-Xing Model
+blmround,02,1.1524216848339284e-4,Fredlund-Xing Model
+blmround,08,4.0184319255915026e-5,Fredlund-Xing Model
+blmround,20,4.290521522080104e-5,Fredlund-Xing Model
+blmroyno,04,5.9950432562549704e-5,Fredlund-Xing Model
+blmroyno,08,8.205249922817341e-5,Fredlund-Xing Model
+blmroyno,20,1.0782539552373576e-4,Fredlund-Xing Model
+blmterry,02,4.231784508702125e-5,Fredlund-Xing Model
+blmterry,08,4.709324149550365e-6,Fredlund-Xing Model
+blmterry,20,7.058878445211405e-5,Fredlund-Xing Model
+blmwarre,02,1.3093238574196336e-5,Fredlund-Xing Model
+blmwarre,08,6.850899010115289e-6,Fredlund-Xing Model
+blmwarre,20,1.152507723134702e-5,Fredlund-Xing Model
+conradmt,02,3.663419161812551e-5,Fredlund-Xing Model
+conradmt,08,4.5315464850447525e-5,Fredlund-Xing Model
+conradmt,20,2.1565253659996187e-5,Fredlund-Xing Model
+ftbentcb,02,8.410738633011845e-6,Fredlund-Xing Model
+ftbentcb,08,7.036451865474157e-6,Fredlund-Xing Model
+ftbentcb,20,6.609899619272544e-6,Fredlund-Xing Model
+lomawood,02,2.6181408831516972e-5,Fredlund-Xing Model
+lomawood,08,4.709339266618456e-6,Fredlund-Xing Model
+lomawood,20,1.3166921150545158e-5,Fredlund-Xing Model
+mdabench,02,1.6941445471273337e-4,Fredlund-Xing Model
+mdabench,08,6.284635386696127e-5,Fredlund-Xing Model
+mdabench,20,1.317196831906285e-5,Fredlund-Xing Model
+mdacasca,04,4.477844470745998e-5,Fredlund-Xing Model
+mdacasca,08,7.892204217697222e-6,Fredlund-Xing Model
+mdacasca,20,2.000702894824423e-5,Fredlund-Xing Model
+mdachine,02,3.6191110318468566e-5,Fredlund-Xing Model
+mdachine,08,3.498530444599023e-5,Fredlund-Xing Model
+mdachine,20,6.762145754322154e-5,Fredlund-Xing Model
+mdachote,02,3.0538991008058504e-5,Fredlund-Xing Model
+mdachote,08,5.213356400509965e-5,Fredlund-Xing Model
+mdachote,20,1.3858568344029184e-4,Fredlund-Xing Model
+mdadillo,04,1.2375407390563997e-4,Fredlund-Xing Model
+mdadillo,08,7.774200086819899e-5,Fredlund-Xing Model
+mdadillo,20,9.840337296143082e-4,Fredlund-Xing Model
+mdaedgar,02,1.0068558744402714e-4,Fredlund-Xing Model
+mdaedgar,08,1.2797207746589498e-5,Fredlund-Xing Model
+mdaedgar,20,5.587069489617192e-6,Fredlund-Xing Model
+mdafroid,04,6.292537687852144e-5,Fredlund-Xing Model
+mdafroid,08,9.17917058313622e-6,Fredlund-Xing Model
+mdafroid,20,5.7376845811003593e-5,Fredlund-Xing Model
+mdaglidf,02,3.40707767883347e-6,Fredlund-Xing Model
+mdaglidf,08,9.684994531765256e-5,Fredlund-Xing Model
+mdaglidf,20,6.609367506377511e-6,Fredlund-Xing Model
+mdahardi,04,1.0543216407907657e-5,Fredlund-Xing Model
+mdahardi,08,9.557190849112072e-5,Fredlund-Xing Model
+mdahardi,20,6.42210583933364e-6,Fredlund-Xing Model
+mdahogel,02,1.8494682497256304e-5,Fredlund-Xing Model
+mdahogel,08,1.601986810035232e-5,Fredlund-Xing Model
+mdahogel,20,1.0094398801726524e-5,Fredlund-Xing Model
+mdaledge,04,2.4521861983084273e-5,Fredlund-Xing Model
+mdaledge,08,1.4212832330264671e-5,Fredlund-Xing Model
+mdaledge,20,2.19215446196681e-4,Fredlund-Xing Model
+mdamalta,04,2.45020971962941e-4,Fredlund-Xing Model
+mdamalta,08,1.8439699587850653e-4,Fredlund-Xing Model
+mdamalta,20,2.2654552030934463e-4,Fredlund-Xing Model
+mdamanha,04,1.0268453650581252e-4,Fredlund-Xing Model
+mdamanha,08,5.796184843333131e-4,Fredlund-Xing Model
+mdamanha,20,4.825713436000097e-5,Fredlund-Xing Model
+mdamiles,04,2.557961271988589e-5,Fredlund-Xing Model
+mdamiles,08,7.171385691450228e-5,Fredlund-Xing Model
+mdamiles,20,9.56534871566472e-5,Fredlund-Xing Model
+mdaoilmo,04,2.6424245096885255e-5,Fredlund-Xing Model
+mdaoilmo,08,3.0395608282932544e-5,Fredlund-Xing Model
+mdaoilmo,20,8.155030213303241e-6,Fredlund-Xing Model
+mdapower,02,5.4540069984626685e-5,Fredlund-Xing Model
+mdapower,08,6.373584011529599e-5,Fredlund-Xing Model
+mdapower,20,1.226013663312802e-5,Fredlund-Xing Model
+mdascoby,04,3.21083781832387e-5,Fredlund-Xing Model
+mdascoby,08,1.6367247041079814e-5,Fredlund-Xing Model
+mdascoby,20,3.4163721456189487e-6,Fredlund-Xing Model
+mdatost2,02,3.033500252500901e-5,Fredlund-Xing Model
+mdatost2,08,1.4144546722396026e-5,Fredlund-Xing Model
+mdatost2,20,1.3680036028249024e-5,Fredlund-Xing Model
+mdatwinb,02,6.914342961163663e-6,Fredlund-Xing Model
+mdatwinb,08,1.873243012146743e-5,Fredlund-Xing Model
+mdatwinb,20,1.774510305443407e-5,Fredlund-Xing Model
+moltwest,02,2.455091941009584e-5,Fredlund-Xing Model
+moltwest,08,0.0127695057191798,Fredlund-Xing Model
+moltwest,20,1.7529410529777437e-5,Fredlund-Xing Model
+namupper,02,2.6519723466954475e-6,Fredlund-Xing Model
+namupper,08,2.2719075828361013e-5,Fredlund-Xing Model
+namupper,20,4.696205100217571e-5,Fredlund-Xing Model
+raplejen,02,1.3741262147448432e-4,Fredlund-Xing Model
+raplejen,08,6.416753935473076e-6,Fredlund-Xing Model
+raplejen,20,2.4974558553067694e-5,Fredlund-Xing Model
+reedpoin,02,6.113742086311124e-6,Fredlund-Xing Model
+reedpoin,08,6.976331487355687e-6,Fredlund-Xing Model
+reedpoin,20,1.2273432016042258e-5,Fredlund-Xing Model
+sidneymt,02,2.9857495147130944e-5,Fredlund-Xing Model
+sidneymt,08,2.4763207658724407e-6,Fredlund-Xing Model
+sidneymt,20,6.975742954130369e-6,Fredlund-Xing Model
+turekran,02,2.3260998936105737e-5,Fredlund-Xing Model
+turekran,08,1.136149998674319e-4,Fredlund-Xing Model
+turekran,20,5.366214646501082e-6,Fredlund-Xing Model
+wrsround,02,2.8453667708517584e-6,Fredlund-Xing Model
+wrsround,08,8.313952300275942e-6,Fredlund-Xing Model
+wrsround,20,2.07438541008469e-5,Fredlund-Xing Model
+wsrabsaw,02,1.1684516604977516e-5,Fredlund-Xing Model
+wsrabsaw,08,6.3878972714591285e-6,Fredlund-Xing Model
+wsrabsaw,20,2.0126382111059025e-4,Fredlund-Xing Model
+wsrboydw,02,1.0936075457964531e-5,Fredlund-Xing Model
+wsrboydw,08,7.219793996862499e-6,Fredlund-Xing Model
+wsrboydw,20,1.745701998474701e-5,Fredlund-Xing Model
+wsrbroad,02,3.352819971808688e-5,Fredlund-Xing Model
+wsrbroad,08,8.565670631459372e-5,Fredlund-Xing Model
+wsrbroad,20,7.003725711983419e-6,Fredlund-Xing Model
+wsrmelvi,02,4.10787808782101e-6,Fredlund-Xing Model
+wsrmelvi,08,3.86670961358561e-6,Fredlund-Xing Model
+wsrmelvi,20,5.019676936815028e-6,Fredlund-Xing Model
+arskeogh,02,1.8797007915877653e-5,Fredlund-Xing Model
+arskeogh,08,1.4319261491992964e-5,Fredlund-Xing Model
+arskeogh,20,1.3178317166436748e-5,Fredlund-Xing Model
+arskeose,02,2.063316790245162e-4,Fredlund-Xing Model
+arskeose,08,7.737389417782558e-5,Fredlund-Xing Model
+arskeose,20,3.141957032406592e-5,Fredlund-Xing Model
+arskeosw,02,7.68215207933498e-6,Fredlund-Xing Model
+arskeosw,08,1.6958116551485686e-5,Fredlund-Xing Model
+arskeosw,20,2.071105560973121e-5,Fredlund-Xing Model
+bentlake,02,5.335558445004731e-6,Fredlund-Xing Model
+bentlake,08,4.378368671190453e-5,Fredlund-Xing Model
+bentlake,20,4.3308140292605535e-5,Fredlund-Xing Model
+blmbattl,02,4.3067841516601864e-5,Fredlund-Xing Model
+blmbattl,08,3.068774044828473e-5,Fredlund-Xing Model
+blmbattl,20,2.280647829723206e-4,Fredlund-Xing Model
+blmbelfr,04,6.929779892723631e-6,Fredlund-Xing Model
+blmbelfr,08,2.3734617751479883e-5,Fredlund-Xing Model
+blmbelfr,20,1.1468151434277669e-5,Fredlund-Xing Model
+blmbroad,02,3.6018235645535196e-5,Fredlund-Xing Model
+blmbroad,08,4.898123001613891e-5,Fredlund-Xing Model
+blmbroad,20,9.284753487756688e-5,Fredlund-Xing Model
+blmcapit,02,2.300652452786293e-5,Fredlund-Xing Model
+blmcapit,08,3.0427056936032493e-5,Fredlund-Xing Model
+blmcapit,20,1.91279477291875e-4,Fredlund-Xing Model
+blmglend,02,1.3286291281367946e-4,Fredlund-Xing Model
+blmglend,08,3.932987115267694e-5,Fredlund-Xing Model
+blmglend,20,3.604503952569303e-5,Fredlund-Xing Model
+blmglnor,02,2.8873570151556464e-4,Fredlund-Xing Model
+blmglnor,08,1.1982082744010362e-4,Fredlund-Xing Model
+blmglnor,20,3.245502629999315e-5,Fredlund-Xing Model
+blmhardi,02,1.0453781701100137e-4,Fredlund-Xing Model
+blmhardi,08,3.502145155408499e-5,Fredlund-Xing Model
+blmhardi,20,5.320517524782243e-5,Fredlund-Xing Model
+blmhavre,02,1.3061492787089308e-4,Fredlund-Xing Model
+blmhavre,08,2.1563236429224455e-5,Fredlund-Xing Model
+blmhavre,20,1.205623163375283e-4,Fredlund-Xing Model
+blmmatad,02,3.935434667727624e-6,Fredlund-Xing Model
+blmmatad,08,1.9090077889088623e-4,Fredlund-Xing Model
+blmmatad,20,4.497184129383044e-5,Fredlund-Xing Model
+blmplevn,02,1.880056920266164e-5,Fredlund-Xing Model
+blmplevn,08,2.4252307073352356e-5,Fredlund-Xing Model
+blmplevn,20,5.79255980550072e-6,Fredlund-Xing Model
+blmpumpk,02,1.729240194409954e-5,Fredlund-Xing Model
+blmpumpk,08,8.688524083046803e-5,Fredlund-Xing Model
+blmpumpk,20,4.228138886452727e-5,Fredlund-Xing Model
+blmround,02,1.1524216848339284e-4,Fredlund-Xing Model
+blmround,08,4.0184319255915026e-5,Fredlund-Xing Model
+blmround,20,4.290521522080104e-5,Fredlund-Xing Model
+blmroyno,04,5.9950432562549704e-5,Fredlund-Xing Model
+blmroyno,08,8.205249922817341e-5,Fredlund-Xing Model
+blmroyno,20,1.0782539552373576e-4,Fredlund-Xing Model
+blmterry,02,4.231784508702125e-5,Fredlund-Xing Model
+blmterry,08,4.709324149550365e-6,Fredlund-Xing Model
+blmterry,20,7.058878445211405e-5,Fredlund-Xing Model
+blmwarre,02,1.3093238574196336e-5,Fredlund-Xing Model
+blmwarre,08,6.850899010115289e-6,Fredlund-Xing Model
+blmwarre,20,1.152507723134702e-5,Fredlund-Xing Model
+conradmt,02,3.663419161812551e-5,Fredlund-Xing Model
+conradmt,08,4.5315464850447525e-5,Fredlund-Xing Model
+conradmt,20,2.1565253659996187e-5,Fredlund-Xing Model
+ftbentcb,02,8.410738633011845e-6,Fredlund-Xing Model
+ftbentcb,08,7.036451865474157e-6,Fredlund-Xing Model
+ftbentcb,20,6.609899619272544e-6,Fredlund-Xing Model
+lomawood,02,2.6181408831516972e-5,Fredlund-Xing Model
+lomawood,08,4.709339266618456e-6,Fredlund-Xing Model
+lomawood,20,1.3166921150545158e-5,Fredlund-Xing Model
+mdabench,02,1.6941445471273337e-4,Fredlund-Xing Model
+mdabench,08,6.284635386696127e-5,Fredlund-Xing Model
+mdabench,20,1.317196831906285e-5,Fredlund-Xing Model
+mdacasca,04,4.477844470745998e-5,Fredlund-Xing Model
+mdacasca,08,7.892204217697222e-6,Fredlund-Xing Model
+mdacasca,20,2.000702894824423e-5,Fredlund-Xing Model
+mdachine,02,3.6191110318468566e-5,Fredlund-Xing Model
+mdachine,08,3.498530444599023e-5,Fredlund-Xing Model
+mdachine,20,6.762145754322154e-5,Fredlund-Xing Model
+mdachote,02,3.0538991008058504e-5,Fredlund-Xing Model
+mdachote,08,5.213356400509965e-5,Fredlund-Xing Model
+mdachote,20,1.3858568344029184e-4,Fredlund-Xing Model
+mdadillo,04,1.2375407390563997e-4,Fredlund-Xing Model
+mdadillo,08,7.774200086819899e-5,Fredlund-Xing Model
+mdadillo,20,9.840337296143082e-4,Fredlund-Xing Model
+mdaedgar,02,1.0068558744402714e-4,Fredlund-Xing Model
+mdaedgar,08,1.2797207746589498e-5,Fredlund-Xing Model
+mdaedgar,20,5.587069489617192e-6,Fredlund-Xing Model
+mdafroid,04,6.292537687852144e-5,Fredlund-Xing Model
+mdafroid,08,9.17917058313622e-6,Fredlund-Xing Model
+mdafroid,20,5.7376845811003593e-5,Fredlund-Xing Model
+mdaglidf,02,3.40707767883347e-6,Fredlund-Xing Model
+mdaglidf,08,9.684994531765256e-5,Fredlund-Xing Model
+mdaglidf,20,6.609367506377511e-6,Fredlund-Xing Model
+mdahardi,04,1.0543216407907657e-5,Fredlund-Xing Model
+mdahardi,08,9.557190849112072e-5,Fredlund-Xing Model
+mdahardi,20,6.42210583933364e-6,Fredlund-Xing Model
+mdahogel,02,1.8494682497256304e-5,Fredlund-Xing Model
+mdahogel,08,1.601986810035232e-5,Fredlund-Xing Model
+mdahogel,20,1.0094398801726524e-5,Fredlund-Xing Model
+mdaledge,04,2.4521861983084273e-5,Fredlund-Xing Model
+mdaledge,08,1.4212832330264671e-5,Fredlund-Xing Model
+mdaledge,20,2.19215446196681e-4,Fredlund-Xing Model
+mdamalta,04,2.45020971962941e-4,Fredlund-Xing Model
+mdamalta,08,1.8439699587850653e-4,Fredlund-Xing Model
+mdamalta,20,2.2654552030934463e-4,Fredlund-Xing Model
+mdamanha,04,1.0268453650581252e-4,Fredlund-Xing Model
+mdamanha,08,5.796184843333131e-4,Fredlund-Xing Model
+mdamanha,20,4.825713436000097e-5,Fredlund-Xing Model
+mdamiles,04,2.557961271988589e-5,Fredlund-Xing Model
+mdamiles,08,7.171385691450228e-5,Fredlund-Xing Model
+mdamiles,20,9.56534871566472e-5,Fredlund-Xing Model
+mdaoilmo,04,2.6424245096885255e-5,Fredlund-Xing Model
+mdaoilmo,08,3.0395608282932544e-5,Fredlund-Xing Model
+mdaoilmo,20,8.155030213303241e-6,Fredlund-Xing Model
+mdapower,02,5.4540069984626685e-5,Fredlund-Xing Model
+mdapower,08,6.373584011529599e-5,Fredlund-Xing Model
+mdapower,20,1.226013663312802e-5,Fredlund-Xing Model
+mdascoby,04,3.21083781832387e-5,Fredlund-Xing Model
+mdascoby,08,1.6367247041079814e-5,Fredlund-Xing Model
+mdascoby,20,3.4163721456189487e-6,Fredlund-Xing Model
+mdatost2,02,3.033500252500901e-5,Fredlund-Xing Model
+mdatost2,08,1.4144546722396026e-5,Fredlund-Xing Model
+mdatost2,20,1.3680036028249024e-5,Fredlund-Xing Model
+mdatwinb,02,6.914342961163663e-6,Fredlund-Xing Model
+mdatwinb,08,1.873243012146743e-5,Fredlund-Xing Model
+mdatwinb,20,1.774510305443407e-5,Fredlund-Xing Model
+moltwest,02,2.455091941009584e-5,Fredlund-Xing Model
+moltwest,08,0.0127695057191798,Fredlund-Xing Model
+moltwest,20,1.7529410529777437e-5,Fredlund-Xing Model
+namupper,02,2.6519723466954475e-6,Fredlund-Xing Model
+namupper,08,2.2719075828361013e-5,Fredlund-Xing Model
+namupper,20,4.696205100217571e-5,Fredlund-Xing Model
+raplejen,02,1.3741262147448432e-4,Fredlund-Xing Model
+raplejen,08,6.416753935473076e-6,Fredlund-Xing Model
+raplejen,20,2.4974558553067694e-5,Fredlund-Xing Model
+reedpoin,02,6.113742086311124e-6,Fredlund-Xing Model
+reedpoin,08,6.976331487355687e-6,Fredlund-Xing Model
+reedpoin,20,1.2273432016042258e-5,Fredlund-Xing Model
+sidneymt,02,2.9857495147130944e-5,Fredlund-Xing Model
+sidneymt,08,2.4763207658724407e-6,Fredlund-Xing Model
+sidneymt,20,6.975742954130369e-6,Fredlund-Xing Model
+turekran,02,2.3260998936105737e-5,Fredlund-Xing Model
+turekran,08,1.136149998674319e-4,Fredlund-Xing Model
+turekran,20,5.366214646501082e-6,Fredlund-Xing Model
+wrsround,02,2.8453667708517584e-6,Fredlund-Xing Model
+wrsround,08,8.313952300275942e-6,Fredlund-Xing Model
+wrsround,20,2.07438541008469e-5,Fredlund-Xing Model
+wsrabsaw,02,1.1684516604977516e-5,Fredlund-Xing Model
+wsrabsaw,08,6.3878972714591285e-6,Fredlund-Xing Model
+wsrabsaw,20,2.0126382111059025e-4,Fredlund-Xing Model
+wsrboydw,02,1.0936075457964531e-5,Fredlund-Xing Model
+wsrboydw,08,7.219793996862499e-6,Fredlund-Xing Model
+wsrboydw,20,1.745701998474701e-5,Fredlund-Xing Model
+wsrbroad,02,3.352819971808688e-5,Fredlund-Xing Model
+wsrbroad,08,8.565670631459372e-5,Fredlund-Xing Model
+wsrbroad,20,7.003725711983419e-6,Fredlund-Xing Model
+wsrmelvi,02,4.10787808782101e-6,Fredlund-Xing Model
+wsrmelvi,08,3.86670961358561e-6,Fredlund-Xing Model
+wsrmelvi,20,5.019676936815028e-6,Fredlund-Xing Model
+arskeogh,02,1.8797007915877653e-5,Fredlund-Xing Model
+arskeogh,08,1.4319261491992964e-5,Fredlund-Xing Model
+arskeogh,20,1.3178317166436748e-5,Fredlund-Xing Model
+arskeose,02,2.063316790245162e-4,Fredlund-Xing Model
+arskeose,08,7.737389417782558e-5,Fredlund-Xing Model
+arskeose,20,3.141957032406592e-5,Fredlund-Xing Model
+arskeosw,02,7.68215207933498e-6,Fredlund-Xing Model
+arskeosw,08,1.6958116551485686e-5,Fredlund-Xing Model
+arskeosw,20,2.071105560973121e-5,Fredlund-Xing Model
+bentlake,02,5.335558445004731e-6,Fredlund-Xing Model
+bentlake,08,4.378368671190453e-5,Fredlund-Xing Model
+bentlake,20,4.3308140292605535e-5,Fredlund-Xing Model
+blmbattl,02,4.3067841516601864e-5,Fredlund-Xing Model
+blmbattl,08,3.068774044828473e-5,Fredlund-Xing Model
+blmbattl,20,2.280647829723206e-4,Fredlund-Xing Model
+blmbelfr,04,6.929779892723631e-6,Fredlund-Xing Model
+blmbelfr,08,2.3734617751479883e-5,Fredlund-Xing Model
+blmbelfr,20,1.1468151434277669e-5,Fredlund-Xing Model
+blmbroad,02,3.6018235645535196e-5,Fredlund-Xing Model
+blmbroad,08,4.898123001613891e-5,Fredlund-Xing Model
+blmbroad,20,9.284753487756688e-5,Fredlund-Xing Model
+blmcapit,02,2.300652452786293e-5,Fredlund-Xing Model
+blmcapit,08,3.0427056936032493e-5,Fredlund-Xing Model
+blmcapit,20,1.91279477291875e-4,Fredlund-Xing Model
+blmglend,02,1.3286291281367946e-4,Fredlund-Xing Model
+blmglend,08,3.932987115267694e-5,Fredlund-Xing Model
+blmglend,20,3.604503952569303e-5,Fredlund-Xing Model
+blmglnor,02,2.8873570151556464e-4,Fredlund-Xing Model
+blmglnor,08,1.1982082744010362e-4,Fredlund-Xing Model
+blmglnor,20,3.245502629999315e-5,Fredlund-Xing Model
+blmhardi,02,1.0453781701100137e-4,Fredlund-Xing Model
+blmhardi,08,3.502145155408499e-5,Fredlund-Xing Model
+blmhardi,20,5.320517524782243e-5,Fredlund-Xing Model
+blmhavre,02,1.3061492787089308e-4,Fredlund-Xing Model
+blmhavre,08,2.1563236429224455e-5,Fredlund-Xing Model
+blmhavre,20,1.205623163375283e-4,Fredlund-Xing Model
+blmmatad,02,3.935434667727624e-6,Fredlund-Xing Model
+blmmatad,08,1.9090077889088623e-4,Fredlund-Xing Model
+blmmatad,20,4.497184129383044e-5,Fredlund-Xing Model
+blmplevn,02,1.880056920266164e-5,Fredlund-Xing Model
+blmplevn,08,2.4252307073352356e-5,Fredlund-Xing Model
+blmplevn,20,5.79255980550072e-6,Fredlund-Xing Model
+blmpumpk,02,1.729240194409954e-5,Fredlund-Xing Model
+blmpumpk,08,8.688524083046803e-5,Fredlund-Xing Model
+blmpumpk,20,4.228138886452727e-5,Fredlund-Xing Model
+blmround,02,1.1524216848339284e-4,Fredlund-Xing Model
+blmround,08,4.0184319255915026e-5,Fredlund-Xing Model
+blmround,20,4.290521522080104e-5,Fredlund-Xing Model
+blmroyno,04,5.9950432562549704e-5,Fredlund-Xing Model
+blmroyno,08,8.205249922817341e-5,Fredlund-Xing Model
+blmroyno,20,1.0782539552373576e-4,Fredlund-Xing Model
+blmterry,02,4.231784508702125e-5,Fredlund-Xing Model
+blmterry,08,4.709324149550365e-6,Fredlund-Xing Model
+blmterry,20,7.058878445211405e-5,Fredlund-Xing Model
+blmwarre,02,1.3093238574196336e-5,Fredlund-Xing Model
+blmwarre,08,6.850899010115289e-6,Fredlund-Xing Model
+blmwarre,20,1.152507723134702e-5,Fredlund-Xing Model
+conradmt,02,3.663419161812551e-5,Fredlund-Xing Model
+conradmt,08,4.5315464850447525e-5,Fredlund-Xing Model
+conradmt,20,2.1565253659996187e-5,Fredlund-Xing Model
+ftbentcb,02,8.410738633011845e-6,Fredlund-Xing Model
+ftbentcb,08,7.036451865474157e-6,Fredlund-Xing Model
+ftbentcb,20,6.609899619272544e-6,Fredlund-Xing Model
+lomawood,02,2.6181408831516972e-5,Fredlund-Xing Model
+lomawood,08,4.709339266618456e-6,Fredlund-Xing Model
+lomawood,20,1.3166921150545158e-5,Fredlund-Xing Model
+mdabench,02,1.6941445471273337e-4,Fredlund-Xing Model
+mdabench,08,6.284635386696127e-5,Fredlund-Xing Model
+mdabench,20,1.317196831906285e-5,Fredlund-Xing Model
+mdacasca,04,4.477844470745998e-5,Fredlund-Xing Model
+mdacasca,08,7.892204217697222e-6,Fredlund-Xing Model
+mdacasca,20,2.000702894824423e-5,Fredlund-Xing Model
+mdachine,02,3.6191110318468566e-5,Fredlund-Xing Model
+mdachine,08,3.498530444599023e-5,Fredlund-Xing Model
+mdachine,20,6.762145754322154e-5,Fredlund-Xing Model
+mdachote,02,3.0538991008058504e-5,Fredlund-Xing Model
+mdachote,08,5.213356400509965e-5,Fredlund-Xing Model
+mdachote,20,1.3858568344029184e-4,Fredlund-Xing Model
+mdadillo,04,1.2375407390563997e-4,Fredlund-Xing Model
+mdadillo,08,7.774200086819899e-5,Fredlund-Xing Model
+mdadillo,20,9.840337296143082e-4,Fredlund-Xing Model
+mdaedgar,02,1.0068558744402714e-4,Fredlund-Xing Model
+mdaedgar,08,1.2797207746589498e-5,Fredlund-Xing Model
+mdaedgar,20,5.587069489617192e-6,Fredlund-Xing Model
+mdafroid,04,6.292537687852144e-5,Fredlund-Xing Model
+mdafroid,08,9.17917058313622e-6,Fredlund-Xing Model
+mdafroid,20,5.7376845811003593e-5,Fredlund-Xing Model
+mdaglidf,02,3.40707767883347e-6,Fredlund-Xing Model
+mdaglidf,08,9.684994531765256e-5,Fredlund-Xing Model
+mdaglidf,20,6.609367506377511e-6,Fredlund-Xing Model
+mdahardi,04,1.0543216407907657e-5,Fredlund-Xing Model
+mdahardi,08,9.557190849112072e-5,Fredlund-Xing Model
+mdahardi,20,6.42210583933364e-6,Fredlund-Xing Model
+mdahogel,02,1.8494682497256304e-5,Fredlund-Xing Model
+mdahogel,08,1.601986810035232e-5,Fredlund-Xing Model
+mdahogel,20,1.0094398801726524e-5,Fredlund-Xing Model
+mdaledge,04,2.4521861983084273e-5,Fredlund-Xing Model
+mdaledge,08,1.4212832330264671e-5,Fredlund-Xing Model
+mdaledge,20,2.19215446196681e-4,Fredlund-Xing Model
+mdamalta,04,2.45020971962941e-4,Fredlund-Xing Model
+mdamalta,08,1.8439699587850653e-4,Fredlund-Xing Model
+mdamalta,20,2.2654552030934463e-4,Fredlund-Xing Model
+mdamanha,04,1.0268453650581252e-4,Fredlund-Xing Model
+mdamanha,08,5.796184843333131e-4,Fredlund-Xing Model
+mdamanha,20,4.825713436000097e-5,Fredlund-Xing Model
+mdamiles,04,2.557961271988589e-5,Fredlund-Xing Model
+mdamiles,08,7.171385691450228e-5,Fredlund-Xing Model
+mdamiles,20,9.56534871566472e-5,Fredlund-Xing Model
+mdaoilmo,04,2.6424245096885255e-5,Fredlund-Xing Model
+mdaoilmo,08,3.0395608282932544e-5,Fredlund-Xing Model
+mdaoilmo,20,8.155030213303241e-6,Fredlund-Xing Model
+mdapower,02,5.4540069984626685e-5,Fredlund-Xing Model
+mdapower,08,6.373584011529599e-5,Fredlund-Xing Model
+mdapower,20,1.226013663312802e-5,Fredlund-Xing Model
+mdascoby,04,3.21083781832387e-5,Fredlund-Xing Model
+mdascoby,08,1.6367247041079814e-5,Fredlund-Xing Model
+mdascoby,20,3.4163721456189487e-6,Fredlund-Xing Model
+mdatost2,02,3.033500252500901e-5,Fredlund-Xing Model
+mdatost2,08,1.4144546722396026e-5,Fredlund-Xing Model
+mdatost2,20,1.3680036028249024e-5,Fredlund-Xing Model
+mdatwinb,02,6.914342961163663e-6,Fredlund-Xing Model
+mdatwinb,08,1.873243012146743e-5,Fredlund-Xing Model
+mdatwinb,20,1.774510305443407e-5,Fredlund-Xing Model
+moltwest,02,2.455091941009584e-5,Fredlund-Xing Model
+moltwest,08,0.0127695057191798,Fredlund-Xing Model
+moltwest,20,1.7529410529777437e-5,Fredlund-Xing Model
+namupper,02,2.6519723466954475e-6,Fredlund-Xing Model
+namupper,08,2.2719075828361013e-5,Fredlund-Xing Model
+namupper,20,4.696205100217571e-5,Fredlund-Xing Model
+raplejen,02,1.3741262147448432e-4,Fredlund-Xing Model
+raplejen,08,6.416753935473076e-6,Fredlund-Xing Model
+raplejen,20,2.4974558553067694e-5,Fredlund-Xing Model
+reedpoin,02,6.113742086311124e-6,Fredlund-Xing Model
+reedpoin,08,6.976331487355687e-6,Fredlund-Xing Model
+reedpoin,20,1.2273432016042258e-5,Fredlund-Xing Model
+sidneymt,02,2.9857495147130944e-5,Fredlund-Xing Model
+sidneymt,08,2.4763207658724407e-6,Fredlund-Xing Model
+sidneymt,20,6.975742954130369e-6,Fredlund-Xing Model
+turekran,02,2.3260998936105737e-5,Fredlund-Xing Model
+turekran,08,1.136149998674319e-4,Fredlund-Xing Model
+turekran,20,5.366214646501082e-6,Fredlund-Xing Model
+wrsround,02,2.8453667708517584e-6,Fredlund-Xing Model
+wrsround,08,8.313952300275942e-6,Fredlund-Xing Model
+wrsround,20,2.07438541008469e-5,Fredlund-Xing Model
+wsrabsaw,02,1.1684516604977516e-5,Fredlund-Xing Model
+wsrabsaw,08,6.3878972714591285e-6,Fredlund-Xing Model
+wsrabsaw,20,2.0126382111059025e-4,Fredlund-Xing Model
+wsrboydw,02,1.0936075457964531e-5,Fredlund-Xing Model
+wsrboydw,08,7.219793996862499e-6,Fredlund-Xing Model
+wsrboydw,20,1.745701998474701e-5,Fredlund-Xing Model
+wsrbroad,02,3.352819971808688e-5,Fredlund-Xing Model
+wsrbroad,08,8.565670631459372e-5,Fredlund-Xing Model
+wsrbroad,20,7.003725711983419e-6,Fredlund-Xing Model
+wsrmelvi,02,4.10787808782101e-6,Fredlund-Xing Model
+wsrmelvi,08,3.86670961358561e-6,Fredlund-Xing Model
+wsrmelvi,20,5.019676936815028e-6,Fredlund-Xing Model
+arskeogh,02,1.8797007915877653e-5,Fredlund-Xing Model
+arskeogh,08,1.4319261491992964e-5,Fredlund-Xing Model
+arskeogh,20,1.3178317166436748e-5,Fredlund-Xing Model
+arskeose,02,2.063316790245162e-4,Fredlund-Xing Model
+arskeose,08,7.737389417782558e-5,Fredlund-Xing Model
+arskeose,20,3.141957032406592e-5,Fredlund-Xing Model
+arskeosw,02,7.68215207933498e-6,Fredlund-Xing Model
+arskeosw,08,1.6958116551485686e-5,Fredlund-Xing Model
+arskeosw,20,2.071105560973121e-5,Fredlund-Xing Model
+bentlake,02,5.335558445004731e-6,Fredlund-Xing Model
+bentlake,08,4.378368671190453e-5,Fredlund-Xing Model
+bentlake,20,4.3308140292605535e-5,Fredlund-Xing Model
+blmbattl,02,4.3067841516601864e-5,Fredlund-Xing Model
+blmbattl,08,3.068774044828473e-5,Fredlund-Xing Model
+blmbattl,20,2.280647829723206e-4,Fredlund-Xing Model
+blmbelfr,04,6.929779892723631e-6,Fredlund-Xing Model
+blmbelfr,08,2.3734617751479883e-5,Fredlund-Xing Model
+blmbelfr,20,1.1468151434277669e-5,Fredlund-Xing Model
+blmbroad,02,3.6018235645535196e-5,Fredlund-Xing Model
+blmbroad,08,4.898123001613891e-5,Fredlund-Xing Model
+blmbroad,20,9.284753487756688e-5,Fredlund-Xing Model
+blmcapit,02,2.300652452786293e-5,Fredlund-Xing Model
+blmcapit,08,3.0427056936032493e-5,Fredlund-Xing Model
+blmcapit,20,1.91279477291875e-4,Fredlund-Xing Model
+blmglend,02,1.3286291281367946e-4,Fredlund-Xing Model
+blmglend,08,3.932987115267694e-5,Fredlund-Xing Model
+blmglend,20,3.604503952569303e-5,Fredlund-Xing Model
+blmglnor,02,2.8873570151556464e-4,Fredlund-Xing Model
+blmglnor,08,1.1982082744010362e-4,Fredlund-Xing Model
+blmglnor,20,3.245502629999315e-5,Fredlund-Xing Model
+blmhardi,02,1.0453781701100137e-4,Fredlund-Xing Model
+blmhardi,08,3.502145155408499e-5,Fredlund-Xing Model
+blmhardi,20,5.320517524782243e-5,Fredlund-Xing Model
+blmhavre,02,1.3061492787089308e-4,Fredlund-Xing Model
+blmhavre,08,2.1563236429224455e-5,Fredlund-Xing Model
+blmhavre,20,1.205623163375283e-4,Fredlund-Xing Model
+blmmatad,02,3.935434667727624e-6,Fredlund-Xing Model
+blmmatad,08,1.9090077889088623e-4,Fredlund-Xing Model
+blmmatad,20,4.497184129383044e-5,Fredlund-Xing Model
+blmplevn,02,1.880056920266164e-5,Fredlund-Xing Model
+blmplevn,08,2.4252307073352356e-5,Fredlund-Xing Model
+blmplevn,20,5.79255980550072e-6,Fredlund-Xing Model
+blmpumpk,02,1.729240194409954e-5,Fredlund-Xing Model
+blmpumpk,08,8.688524083046803e-5,Fredlund-Xing Model
+blmpumpk,20,4.228138886452727e-5,Fredlund-Xing Model
+blmround,02,1.1524216848339284e-4,Fredlund-Xing Model
+blmround,08,4.0184319255915026e-5,Fredlund-Xing Model
+blmround,20,4.290521522080104e-5,Fredlund-Xing Model
+blmroyno,04,5.9950432562549704e-5,Fredlund-Xing Model
+blmroyno,08,8.205249922817341e-5,Fredlund-Xing Model
+blmroyno,20,1.0782539552373576e-4,Fredlund-Xing Model
+blmterry,02,4.231784508702125e-5,Fredlund-Xing Model
+blmterry,08,4.709324149550365e-6,Fredlund-Xing Model
+blmterry,20,7.058878445211405e-5,Fredlund-Xing Model
+blmwarre,02,1.3093238574196336e-5,Fredlund-Xing Model
+blmwarre,08,6.850899010115289e-6,Fredlund-Xing Model
+blmwarre,20,1.152507723134702e-5,Fredlund-Xing Model
+conradmt,02,3.663419161812551e-5,Fredlund-Xing Model
+conradmt,08,4.5315464850447525e-5,Fredlund-Xing Model
+conradmt,20,2.1565253659996187e-5,Fredlund-Xing Model
+ftbentcb,02,8.410738633011845e-6,Fredlund-Xing Model
+ftbentcb,08,7.036451865474157e-6,Fredlund-Xing Model
+ftbentcb,20,6.609899619272544e-6,Fredlund-Xing Model
+lomawood,02,2.6181408831516972e-5,Fredlund-Xing Model
+lomawood,08,4.709339266618456e-6,Fredlund-Xing Model
+lomawood,20,1.3166921150545158e-5,Fredlund-Xing Model
+mdabench,02,1.6941445471273337e-4,Fredlund-Xing Model
+mdabench,08,6.284635386696127e-5,Fredlund-Xing Model
+mdabench,20,1.317196831906285e-5,Fredlund-Xing Model
+mdacasca,04,4.477844470745998e-5,Fredlund-Xing Model
+mdacasca,08,7.892204217697222e-6,Fredlund-Xing Model
+mdacasca,20,2.000702894824423e-5,Fredlund-Xing Model
+mdachine,02,3.6191110318468566e-5,Fredlund-Xing Model
+mdachine,08,3.498530444599023e-5,Fredlund-Xing Model
+mdachine,20,6.762145754322154e-5,Fredlund-Xing Model
+mdachote,02,3.0538991008058504e-5,Fredlund-Xing Model
+mdachote,08,5.213356400509965e-5,Fredlund-Xing Model
+mdachote,20,1.3858568344029184e-4,Fredlund-Xing Model
+mdadillo,04,1.2375407390563997e-4,Fredlund-Xing Model
+mdadillo,08,7.774200086819899e-5,Fredlund-Xing Model
+mdadillo,20,9.840337296143082e-4,Fredlund-Xing Model
+mdaedgar,02,1.0068558744402714e-4,Fredlund-Xing Model
+mdaedgar,08,1.2797207746589498e-5,Fredlund-Xing Model
+mdaedgar,20,5.587069489617192e-6,Fredlund-Xing Model
+mdafroid,04,6.292537687852144e-5,Fredlund-Xing Model
+mdafroid,08,9.17917058313622e-6,Fredlund-Xing Model
+mdafroid,20,5.7376845811003593e-5,Fredlund-Xing Model
+mdaglidf,02,3.40707767883347e-6,Fredlund-Xing Model
+mdaglidf,08,9.684994531765256e-5,Fredlund-Xing Model
+mdaglidf,20,6.609367506377511e-6,Fredlund-Xing Model
+mdahardi,04,1.0543216407907657e-5,Fredlund-Xing Model
+mdahardi,08,9.557190849112072e-5,Fredlund-Xing Model
+mdahardi,20,6.42210583933364e-6,Fredlund-Xing Model
+mdahogel,02,1.8494682497256304e-5,Fredlund-Xing Model
+mdahogel,08,1.601986810035232e-5,Fredlund-Xing Model
+mdahogel,20,1.0094398801726524e-5,Fredlund-Xing Model
+mdaledge,04,2.4521861983084273e-5,Fredlund-Xing Model
+mdaledge,08,1.4212832330264671e-5,Fredlund-Xing Model
+mdaledge,20,2.19215446196681e-4,Fredlund-Xing Model
+mdamalta,04,2.45020971962941e-4,Fredlund-Xing Model
+mdamalta,08,1.8439699587850653e-4,Fredlund-Xing Model
+mdamalta,20,2.2654552030934463e-4,Fredlund-Xing Model
+mdamanha,04,1.0268453650581252e-4,Fredlund-Xing Model
+mdamanha,08,5.796184843333131e-4,Fredlund-Xing Model
+mdamanha,20,4.825713436000097e-5,Fredlund-Xing Model
+mdamiles,04,2.557961271988589e-5,Fredlund-Xing Model
+mdamiles,08,7.171385691450228e-5,Fredlund-Xing Model
+mdamiles,20,9.56534871566472e-5,Fredlund-Xing Model
+mdaoilmo,04,2.6424245096885255e-5,Fredlund-Xing Model
+mdaoilmo,08,3.0395608282932544e-5,Fredlund-Xing Model
+mdaoilmo,20,8.155030213303241e-6,Fredlund-Xing Model
+mdapower,02,5.4540069984626685e-5,Fredlund-Xing Model
+mdapower,08,6.373584011529599e-5,Fredlund-Xing Model
+mdapower,20,1.226013663312802e-5,Fredlund-Xing Model
+mdascoby,04,3.21083781832387e-5,Fredlund-Xing Model
+mdascoby,08,1.6367247041079814e-5,Fredlund-Xing Model
+mdascoby,20,3.4163721456189487e-6,Fredlund-Xing Model
+mdatost2,02,3.033500252500901e-5,Fredlund-Xing Model
+mdatost2,08,1.4144546722396026e-5,Fredlund-Xing Model
+mdatost2,20,1.3680036028249024e-5,Fredlund-Xing Model
+mdatwinb,02,6.914342961163663e-6,Fredlund-Xing Model
+mdatwinb,08,1.873243012146743e-5,Fredlund-Xing Model
+mdatwinb,20,1.774510305443407e-5,Fredlund-Xing Model
+moltwest,02,2.455091941009584e-5,Fredlund-Xing Model
+moltwest,08,0.0127695057191798,Fredlund-Xing Model
+moltwest,20,1.7529410529777437e-5,Fredlund-Xing Model
+namupper,02,2.6519723466954475e-6,Fredlund-Xing Model
+namupper,08,2.2719075828361013e-5,Fredlund-Xing Model
+namupper,20,4.696205100217571e-5,Fredlund-Xing Model
+raplejen,02,1.3741262147448432e-4,Fredlund-Xing Model
+raplejen,08,6.416753935473076e-6,Fredlund-Xing Model
+raplejen,20,2.4974558553067694e-5,Fredlund-Xing Model
+reedpoin,02,6.113742086311124e-6,Fredlund-Xing Model
+reedpoin,08,6.976331487355687e-6,Fredlund-Xing Model
+reedpoin,20,1.2273432016042258e-5,Fredlund-Xing Model
+sidneymt,02,2.9857495147130944e-5,Fredlund-Xing Model
+sidneymt,08,2.4763207658724407e-6,Fredlund-Xing Model
+sidneymt,20,6.975742954130369e-6,Fredlund-Xing Model
+turekran,02,2.3260998936105737e-5,Fredlund-Xing Model
+turekran,08,1.136149998674319e-4,Fredlund-Xing Model
+turekran,20,5.366214646501082e-6,Fredlund-Xing Model
+wrsround,02,2.8453667708517584e-6,Fredlund-Xing Model
+wrsround,08,8.313952300275942e-6,Fredlund-Xing Model
+wrsround,20,2.07438541008469e-5,Fredlund-Xing Model
+wsrabsaw,02,1.1684516604977516e-5,Fredlund-Xing Model
+wsrabsaw,08,6.3878972714591285e-6,Fredlund-Xing Model
+wsrabsaw,20,2.0126382111059025e-4,Fredlund-Xing Model
+wsrboydw,02,1.0936075457964531e-5,Fredlund-Xing Model
+wsrboydw,08,7.219793996862499e-6,Fredlund-Xing Model
+wsrboydw,20,1.745701998474701e-5,Fredlund-Xing Model
+wsrbroad,02,3.352819971808688e-5,Fredlund-Xing Model
+wsrbroad,08,8.565670631459372e-5,Fredlund-Xing Model
+wsrbroad,20,7.003725711983419e-6,Fredlund-Xing Model
+wsrmelvi,02,4.10787808782101e-6,Fredlund-Xing Model
+wsrmelvi,08,3.86670961358561e-6,Fredlund-Xing Model
+wsrmelvi,20,5.019676936815028e-6,Fredlund-Xing Model
+arskeogh,02,1.8797007915877653e-5,Fredlund-Xing Model
+arskeogh,08,1.4319261491992964e-5,Fredlund-Xing Model
+arskeogh,20,1.3178317166436748e-5,Fredlund-Xing Model
+arskeose,02,2.063316790245162e-4,Fredlund-Xing Model
+arskeose,08,7.737389417782558e-5,Fredlund-Xing Model
+arskeose,20,3.141957032406592e-5,Fredlund-Xing Model
+arskeosw,02,7.68215207933498e-6,Fredlund-Xing Model
+arskeosw,08,1.6958116551485686e-5,Fredlund-Xing Model
+arskeosw,20,2.071105560973121e-5,Fredlund-Xing Model
+bentlake,02,5.335558445004731e-6,Fredlund-Xing Model
+bentlake,08,4.378368671190453e-5,Fredlund-Xing Model
+bentlake,20,4.3308140292605535e-5,Fredlund-Xing Model
+blmbattl,02,4.3067841516601864e-5,Fredlund-Xing Model
+blmbattl,08,3.068774044828473e-5,Fredlund-Xing Model
+blmbattl,20,2.280647829723206e-4,Fredlund-Xing Model
+blmbelfr,04,6.929779892723631e-6,Fredlund-Xing Model
+blmbelfr,08,2.3734617751479883e-5,Fredlund-Xing Model
+blmbelfr,20,1.1468151434277669e-5,Fredlund-Xing Model
+blmbroad,02,3.6018235645535196e-5,Fredlund-Xing Model
+blmbroad,08,4.898123001613891e-5,Fredlund-Xing Model
+blmbroad,20,9.284753487756688e-5,Fredlund-Xing Model
+blmcapit,02,2.300652452786293e-5,Fredlund-Xing Model
+blmcapit,08,3.0427056936032493e-5,Fredlund-Xing Model
+blmcapit,20,1.91279477291875e-4,Fredlund-Xing Model
+blmglend,02,1.3286291281367946e-4,Fredlund-Xing Model
+blmglend,08,3.932987115267694e-5,Fredlund-Xing Model
+blmglend,20,3.604503952569303e-5,Fredlund-Xing Model
+blmglnor,02,2.8873570151556464e-4,Fredlund-Xing Model
+blmglnor,08,1.1982082744010362e-4,Fredlund-Xing Model
+blmglnor,20,3.245502629999315e-5,Fredlund-Xing Model
+blmhardi,02,1.0453781701100137e-4,Fredlund-Xing Model
+blmhardi,08,3.502145155408499e-5,Fredlund-Xing Model
+blmhardi,20,5.320517524782243e-5,Fredlund-Xing Model
+blmhavre,02,1.3061492787089308e-4,Fredlund-Xing Model
+blmhavre,08,2.1563236429224455e-5,Fredlund-Xing Model
+blmhavre,20,1.205623163375283e-4,Fredlund-Xing Model
+blmmatad,02,3.935434667727624e-6,Fredlund-Xing Model
+blmmatad,08,1.9090077889088623e-4,Fredlund-Xing Model
+blmmatad,20,4.497184129383044e-5,Fredlund-Xing Model
+blmplevn,02,1.880056920266164e-5,Fredlund-Xing Model
+blmplevn,08,2.4252307073352356e-5,Fredlund-Xing Model
+blmplevn,20,5.79255980550072e-6,Fredlund-Xing Model
+blmpumpk,02,1.729240194409954e-5,Fredlund-Xing Model
+blmpumpk,08,8.688524083046803e-5,Fredlund-Xing Model
+blmpumpk,20,4.228138886452727e-5,Fredlund-Xing Model
+blmround,02,1.1524216848339284e-4,Fredlund-Xing Model
+blmround,08,4.0184319255915026e-5,Fredlund-Xing Model
+blmround,20,4.290521522080104e-5,Fredlund-Xing Model
+blmroyno,04,5.9950432562549704e-5,Fredlund-Xing Model
+blmroyno,08,8.205249922817341e-5,Fredlund-Xing Model
+blmroyno,20,1.0782539552373576e-4,Fredlund-Xing Model
+blmterry,02,4.231784508702125e-5,Fredlund-Xing Model
+blmterry,08,4.709324149550365e-6,Fredlund-Xing Model
+blmterry,20,7.058878445211405e-5,Fredlund-Xing Model
+blmwarre,02,1.3093238574196336e-5,Fredlund-Xing Model
+blmwarre,08,6.850899010115289e-6,Fredlund-Xing Model
+blmwarre,20,1.152507723134702e-5,Fredlund-Xing Model
+conradmt,02,3.663419161812551e-5,Fredlund-Xing Model
+conradmt,08,4.5315464850447525e-5,Fredlund-Xing Model
+conradmt,20,2.1565253659996187e-5,Fredlund-Xing Model
+ftbentcb,02,8.410738633011845e-6,Fredlund-Xing Model
+ftbentcb,08,7.036451865474157e-6,Fredlund-Xing Model
+ftbentcb,20,6.609899619272544e-6,Fredlund-Xing Model
+lomawood,02,2.6181408831516972e-5,Fredlund-Xing Model
+lomawood,08,4.709339266618456e-6,Fredlund-Xing Model
+lomawood,20,1.3166921150545158e-5,Fredlund-Xing Model
+mdabench,02,1.6941445471273337e-4,Fredlund-Xing Model
+mdabench,08,6.284635386696127e-5,Fredlund-Xing Model
+mdabench,20,1.317196831906285e-5,Fredlund-Xing Model
+mdacasca,04,4.477844470745998e-5,Fredlund-Xing Model
+mdacasca,08,7.892204217697222e-6,Fredlund-Xing Model
+mdacasca,20,2.000702894824423e-5,Fredlund-Xing Model
+mdachine,02,3.6191110318468566e-5,Fredlund-Xing Model
+mdachine,08,3.498530444599023e-5,Fredlund-Xing Model
+mdachine,20,6.762145754322154e-5,Fredlund-Xing Model
+mdachote,02,3.0538991008058504e-5,Fredlund-Xing Model
+mdachote,08,5.213356400509965e-5,Fredlund-Xing Model
+mdachote,20,1.3858568344029184e-4,Fredlund-Xing Model
+mdadillo,04,1.2375407390563997e-4,Fredlund-Xing Model
+mdadillo,08,7.774200086819899e-5,Fredlund-Xing Model
+mdadillo,20,9.840337296143082e-4,Fredlund-Xing Model
+mdaedgar,02,1.0068558744402714e-4,Fredlund-Xing Model
+mdaedgar,08,1.2797207746589498e-5,Fredlund-Xing Model
+mdaedgar,20,5.587069489617192e-6,Fredlund-Xing Model
+mdafroid,04,6.292537687852144e-5,Fredlund-Xing Model
+mdafroid,08,9.17917058313622e-6,Fredlund-Xing Model
+mdafroid,20,5.7376845811003593e-5,Fredlund-Xing Model
+mdaglidf,02,3.40707767883347e-6,Fredlund-Xing Model
+mdaglidf,08,9.684994531765256e-5,Fredlund-Xing Model
+mdaglidf,20,6.609367506377511e-6,Fredlund-Xing Model
+mdahardi,04,1.0543216407907657e-5,Fredlund-Xing Model
+mdahardi,08,9.557190849112072e-5,Fredlund-Xing Model
+mdahardi,20,6.42210583933364e-6,Fredlund-Xing Model
+mdahogel,02,1.8494682497256304e-5,Fredlund-Xing Model
+mdahogel,08,1.601986810035232e-5,Fredlund-Xing Model
+mdahogel,20,1.0094398801726524e-5,Fredlund-Xing Model
+mdaledge,04,2.4521861983084273e-5,Fredlund-Xing Model
+mdaledge,08,1.4212832330264671e-5,Fredlund-Xing Model
+mdaledge,20,2.19215446196681e-4,Fredlund-Xing Model
+mdamalta,04,2.45020971962941e-4,Fredlund-Xing Model
+mdamalta,08,1.8439699587850653e-4,Fredlund-Xing Model
+mdamalta,20,2.2654552030934463e-4,Fredlund-Xing Model
+mdamanha,04,1.0268453650581252e-4,Fredlund-Xing Model
+mdamanha,08,5.796184843333131e-4,Fredlund-Xing Model
+mdamanha,20,4.825713436000097e-5,Fredlund-Xing Model
+mdamiles,04,2.557961271988589e-5,Fredlund-Xing Model
+mdamiles,08,7.171385691450228e-5,Fredlund-Xing Model
+mdamiles,20,9.56534871566472e-5,Fredlund-Xing Model
+mdaoilmo,04,2.6424245096885255e-5,Fredlund-Xing Model
+mdaoilmo,08,3.0395608282932544e-5,Fredlund-Xing Model
+mdaoilmo,20,8.155030213303241e-6,Fredlund-Xing Model
+mdapower,02,5.4540069984626685e-5,Fredlund-Xing Model
+mdapower,08,6.373584011529599e-5,Fredlund-Xing Model
+mdapower,20,1.226013663312802e-5,Fredlund-Xing Model
+mdascoby,04,3.21083781832387e-5,Fredlund-Xing Model
+mdascoby,08,1.6367247041079814e-5,Fredlund-Xing Model
+mdascoby,20,3.4163721456189487e-6,Fredlund-Xing Model
+mdatost2,02,3.033500252500901e-5,Fredlund-Xing Model
+mdatost2,08,1.4144546722396026e-5,Fredlund-Xing Model
+mdatost2,20,1.3680036028249024e-5,Fredlund-Xing Model
+mdatwinb,02,6.914342961163663e-6,Fredlund-Xing Model
+mdatwinb,08,1.873243012146743e-5,Fredlund-Xing Model
+mdatwinb,20,1.774510305443407e-5,Fredlund-Xing Model
+moltwest,02,2.455091941009584e-5,Fredlund-Xing Model
+moltwest,08,0.0127695057191798,Fredlund-Xing Model
+moltwest,20,1.7529410529777437e-5,Fredlund-Xing Model
+namupper,02,2.6519723466954475e-6,Fredlund-Xing Model
+namupper,08,2.2719075828361013e-5,Fredlund-Xing Model
+namupper,20,4.696205100217571e-5,Fredlund-Xing Model
+raplejen,02,1.3741262147448432e-4,Fredlund-Xing Model
+raplejen,08,6.416753935473076e-6,Fredlund-Xing Model
+raplejen,20,2.4974558553067694e-5,Fredlund-Xing Model
+reedpoin,02,6.113742086311124e-6,Fredlund-Xing Model
+reedpoin,08,6.976331487355687e-6,Fredlund-Xing Model
+reedpoin,20,1.2273432016042258e-5,Fredlund-Xing Model
+sidneymt,02,2.9857495147130944e-5,Fredlund-Xing Model
+sidneymt,08,2.4763207658724407e-6,Fredlund-Xing Model
+sidneymt,20,6.975742954130369e-6,Fredlund-Xing Model
+turekran,02,2.3260998936105737e-5,Fredlund-Xing Model
+turekran,08,1.136149998674319e-4,Fredlund-Xing Model
+turekran,20,5.366214646501082e-6,Fredlund-Xing Model
+wrsround,02,2.8453667708517584e-6,Fredlund-Xing Model
+wrsround,08,8.313952300275942e-6,Fredlund-Xing Model
+wrsround,20,2.07438541008469e-5,Fredlund-Xing Model
+wsrabsaw,02,1.1684516604977516e-5,Fredlund-Xing Model
+wsrabsaw,08,6.3878972714591285e-6,Fredlund-Xing Model
+wsrabsaw,20,2.0126382111059025e-4,Fredlund-Xing Model
+wsrboydw,02,1.0936075457964531e-5,Fredlund-Xing Model
+wsrboydw,08,7.219793996862499e-6,Fredlund-Xing Model
+wsrboydw,20,1.745701998474701e-5,Fredlund-Xing Model
+wsrbroad,02,3.352819971808688e-5,Fredlund-Xing Model
+wsrbroad,08,8.565670631459372e-5,Fredlund-Xing Model
+wsrbroad,20,7.003725711983419e-6,Fredlund-Xing Model
+wsrmelvi,02,4.10787808782101e-6,Fredlund-Xing Model
+wsrmelvi,08,3.86670961358561e-6,Fredlund-Xing Model
+wsrmelvi,20,5.019676936815028e-6,Fredlund-Xing Model
+arskeogh,02,1.8797007915877653e-5,Fredlund-Xing Model
+arskeogh,08,1.4319261491992964e-5,Fredlund-Xing Model
+arskeogh,20,1.3178317166436748e-5,Fredlund-Xing Model
+arskeose,02,2.063316790245162e-4,Fredlund-Xing Model
+arskeose,08,7.737389417782558e-5,Fredlund-Xing Model
+arskeose,20,3.141957032406592e-5,Fredlund-Xing Model
+arskeosw,02,7.68215207933498e-6,Fredlund-Xing Model
+arskeosw,08,1.6958116551485686e-5,Fredlund-Xing Model
+arskeosw,20,2.071105560973121e-5,Fredlund-Xing Model
+bentlake,02,5.335558445004731e-6,Fredlund-Xing Model
+bentlake,08,4.378368671190453e-5,Fredlund-Xing Model
+bentlake,20,4.3308140292605535e-5,Fredlund-Xing Model
+blmbattl,02,4.3067841516601864e-5,Fredlund-Xing Model
+blmbattl,08,3.068774044828473e-5,Fredlund-Xing Model
+blmbattl,20,2.280647829723206e-4,Fredlund-Xing Model
+blmbelfr,04,6.929779892723631e-6,Fredlund-Xing Model
+blmbelfr,08,2.3734617751479883e-5,Fredlund-Xing Model
+blmbelfr,20,1.1468151434277669e-5,Fredlund-Xing Model
+blmbroad,02,3.6018235645535196e-5,Fredlund-Xing Model
+blmbroad,08,4.898123001613891e-5,Fredlund-Xing Model
+blmbroad,20,9.284753487756688e-5,Fredlund-Xing Model
+blmcapit,02,2.300652452786293e-5,Fredlund-Xing Model
+blmcapit,08,3.0427056936032493e-5,Fredlund-Xing Model
+blmcapit,20,1.91279477291875e-4,Fredlund-Xing Model
+blmglend,02,1.3286291281367946e-4,Fredlund-Xing Model
+blmglend,08,3.932987115267694e-5,Fredlund-Xing Model
+blmglend,20,3.604503952569303e-5,Fredlund-Xing Model
+blmglnor,02,2.8873570151556464e-4,Fredlund-Xing Model
+blmglnor,08,1.1982082744010362e-4,Fredlund-Xing Model
+blmglnor,20,3.245502629999315e-5,Fredlund-Xing Model
+blmhardi,02,1.0453781701100137e-4,Fredlund-Xing Model
+blmhardi,08,3.502145155408499e-5,Fredlund-Xing Model
+blmhardi,20,5.320517524782243e-5,Fredlund-Xing Model
+blmhavre,02,1.3061492787089308e-4,Fredlund-Xing Model
+blmhavre,08,2.1563236429224455e-5,Fredlund-Xing Model
+blmhavre,20,1.205623163375283e-4,Fredlund-Xing Model
+blmmatad,02,3.935434667727624e-6,Fredlund-Xing Model
+blmmatad,08,1.9090077889088623e-4,Fredlund-Xing Model
+blmmatad,20,4.497184129383044e-5,Fredlund-Xing Model
+blmplevn,02,1.880056920266164e-5,Fredlund-Xing Model
+blmplevn,08,2.4252307073352356e-5,Fredlund-Xing Model
+blmplevn,20,5.79255980550072e-6,Fredlund-Xing Model
+blmpumpk,02,1.729240194409954e-5,Fredlund-Xing Model
+blmpumpk,08,8.688524083046803e-5,Fredlund-Xing Model
+blmpumpk,20,4.228138886452727e-5,Fredlund-Xing Model
+blmround,02,1.1524216848339284e-4,Fredlund-Xing Model
+blmround,08,4.0184319255915026e-5,Fredlund-Xing Model
+blmround,20,4.290521522080104e-5,Fredlund-Xing Model
+blmroyno,04,5.9950432562549704e-5,Fredlund-Xing Model
+blmroyno,08,8.205249922817341e-5,Fredlund-Xing Model
+blmroyno,20,1.0782539552373576e-4,Fredlund-Xing Model
+blmterry,02,4.231784508702125e-5,Fredlund-Xing Model
+blmterry,08,4.709324149550365e-6,Fredlund-Xing Model
+blmterry,20,7.058878445211405e-5,Fredlund-Xing Model
+blmwarre,02,1.3093238574196336e-5,Fredlund-Xing Model
+blmwarre,08,6.850899010115289e-6,Fredlund-Xing Model
+blmwarre,20,1.152507723134702e-5,Fredlund-Xing Model
+conradmt,02,3.663419161812551e-5,Fredlund-Xing Model
+conradmt,08,4.5315464850447525e-5,Fredlund-Xing Model
+conradmt,20,2.1565253659996187e-5,Fredlund-Xing Model
+ftbentcb,02,8.410738633011845e-6,Fredlund-Xing Model
+ftbentcb,08,7.036451865474157e-6,Fredlund-Xing Model
+ftbentcb,20,6.609899619272544e-6,Fredlund-Xing Model
+lomawood,02,2.6181408831516972e-5,Fredlund-Xing Model
+lomawood,08,4.709339266618456e-6,Fredlund-Xing Model
+lomawood,20,1.3166921150545158e-5,Fredlund-Xing Model
+mdabench,02,1.6941445471273337e-4,Fredlund-Xing Model
+mdabench,08,6.284635386696127e-5,Fredlund-Xing Model
+mdabench,20,1.317196831906285e-5,Fredlund-Xing Model
+mdacasca,04,4.477844470745998e-5,Fredlund-Xing Model
+mdacasca,08,7.892204217697222e-6,Fredlund-Xing Model
+mdacasca,20,2.000702894824423e-5,Fredlund-Xing Model
+mdachine,02,3.6191110318468566e-5,Fredlund-Xing Model
+mdachine,08,3.498530444599023e-5,Fredlund-Xing Model
+mdachine,20,6.762145754322154e-5,Fredlund-Xing Model
+mdachote,02,3.0538991008058504e-5,Fredlund-Xing Model
+mdachote,08,5.213356400509965e-5,Fredlund-Xing Model
+mdachote,20,1.3858568344029184e-4,Fredlund-Xing Model
+mdadillo,04,1.2375407390563997e-4,Fredlund-Xing Model
+mdadillo,08,7.774200086819899e-5,Fredlund-Xing Model
+mdadillo,20,9.840337296143082e-4,Fredlund-Xing Model
+mdaedgar,02,1.0068558744402714e-4,Fredlund-Xing Model
+mdaedgar,08,1.2797207746589498e-5,Fredlund-Xing Model
+mdaedgar,20,5.587069489617192e-6,Fredlund-Xing Model
+mdafroid,04,6.292537687852144e-5,Fredlund-Xing Model
+mdafroid,08,9.17917058313622e-6,Fredlund-Xing Model
+mdafroid,20,5.7376845811003593e-5,Fredlund-Xing Model
+mdaglidf,02,3.40707767883347e-6,Fredlund-Xing Model
+mdaglidf,08,9.684994531765256e-5,Fredlund-Xing Model
+mdaglidf,20,6.609367506377511e-6,Fredlund-Xing Model
+mdahardi,04,1.0543216407907657e-5,Fredlund-Xing Model
+mdahardi,08,9.557190849112072e-5,Fredlund-Xing Model
+mdahardi,20,6.42210583933364e-6,Fredlund-Xing Model
+mdahogel,02,1.8494682497256304e-5,Fredlund-Xing Model
+mdahogel,08,1.601986810035232e-5,Fredlund-Xing Model
+mdahogel,20,1.0094398801726524e-5,Fredlund-Xing Model
+mdaledge,04,2.4521861983084273e-5,Fredlund-Xing Model
+mdaledge,08,1.4212832330264671e-5,Fredlund-Xing Model
+mdaledge,20,2.19215446196681e-4,Fredlund-Xing Model
+mdamalta,04,2.45020971962941e-4,Fredlund-Xing Model
+mdamalta,08,1.8439699587850653e-4,Fredlund-Xing Model
+mdamalta,20,2.2654552030934463e-4,Fredlund-Xing Model
+mdamanha,04,1.0268453650581252e-4,Fredlund-Xing Model
+mdamanha,08,5.796184843333131e-4,Fredlund-Xing Model
+mdamanha,20,4.825713436000097e-5,Fredlund-Xing Model
+mdamiles,04,2.557961271988589e-5,Fredlund-Xing Model
+mdamiles,08,7.171385691450228e-5,Fredlund-Xing Model
+mdamiles,20,9.56534871566472e-5,Fredlund-Xing Model
+mdaoilmo,04,2.6424245096885255e-5,Fredlund-Xing Model
+mdaoilmo,08,3.0395608282932544e-5,Fredlund-Xing Model
+mdaoilmo,20,8.155030213303241e-6,Fredlund-Xing Model
+mdapower,02,5.4540069984626685e-5,Fredlund-Xing Model
+mdapower,08,6.373584011529599e-5,Fredlund-Xing Model
+mdapower,20,1.226013663312802e-5,Fredlund-Xing Model
+mdascoby,04,3.21083781832387e-5,Fredlund-Xing Model
+mdascoby,08,1.6367247041079814e-5,Fredlund-Xing Model
+mdascoby,20,3.4163721456189487e-6,Fredlund-Xing Model
+mdatost2,02,3.033500252500901e-5,Fredlund-Xing Model
+mdatost2,08,1.4144546722396026e-5,Fredlund-Xing Model
+mdatost2,20,1.3680036028249024e-5,Fredlund-Xing Model
+mdatwinb,02,6.914342961163663e-6,Fredlund-Xing Model
+mdatwinb,08,1.873243012146743e-5,Fredlund-Xing Model
+mdatwinb,20,1.774510305443407e-5,Fredlund-Xing Model
+moltwest,02,2.455091941009584e-5,Fredlund-Xing Model
+moltwest,08,0.0127695057191798,Fredlund-Xing Model
+moltwest,20,1.7529410529777437e-5,Fredlund-Xing Model
+namupper,02,2.6519723466954475e-6,Fredlund-Xing Model
+namupper,08,2.2719075828361013e-5,Fredlund-Xing Model
+namupper,20,4.696205100217571e-5,Fredlund-Xing Model
+raplejen,02,1.3741262147448432e-4,Fredlund-Xing Model
+raplejen,08,6.416753935473076e-6,Fredlund-Xing Model
+raplejen,20,2.4974558553067694e-5,Fredlund-Xing Model
+reedpoin,02,6.113742086311124e-6,Fredlund-Xing Model
+reedpoin,08,6.976331487355687e-6,Fredlund-Xing Model
+reedpoin,20,1.2273432016042258e-5,Fredlund-Xing Model
+sidneymt,02,2.9857495147130944e-5,Fredlund-Xing Model
+sidneymt,08,2.4763207658724407e-6,Fredlund-Xing Model
+sidneymt,20,6.975742954130369e-6,Fredlund-Xing Model
+turekran,02,2.3260998936105737e-5,Fredlund-Xing Model
+turekran,08,1.136149998674319e-4,Fredlund-Xing Model
+turekran,20,5.366214646501082e-6,Fredlund-Xing Model
+wrsround,02,2.8453667708517584e-6,Fredlund-Xing Model
+wrsround,08,8.313952300275942e-6,Fredlund-Xing Model
+wrsround,20,2.07438541008469e-5,Fredlund-Xing Model
+wsrabsaw,02,1.1684516604977516e-5,Fredlund-Xing Model
+wsrabsaw,08,6.3878972714591285e-6,Fredlund-Xing Model
+wsrabsaw,20,2.0126382111059025e-4,Fredlund-Xing Model
+wsrboydw,02,1.0936075457964531e-5,Fredlund-Xing Model
+wsrboydw,08,7.219793996862499e-6,Fredlund-Xing Model
+wsrboydw,20,1.745701998474701e-5,Fredlund-Xing Model
+wsrbroad,02,3.352819971808688e-5,Fredlund-Xing Model
+wsrbroad,08,8.565670631459372e-5,Fredlund-Xing Model
+wsrbroad,20,7.003725711983419e-6,Fredlund-Xing Model
+wsrmelvi,02,4.10787808782101e-6,Fredlund-Xing Model
+wsrmelvi,08,3.86670961358561e-6,Fredlund-Xing Model
+wsrmelvi,20,5.019676936815028e-6,Fredlund-Xing Model
+arskeogh,02,1.93774129376447e-5,Van Genechten Model
+arskeogh,08,1.5049934635007484e-5,Van Genechten Model
+arskeogh,20,2.5006591211667144e-5,Van Genechten Model
+arskeose,02,4.094499067605805e-4,Van Genechten Model
+arskeose,08,8.574248625786056e-5,Van Genechten Model
+arskeose,20,2.7049197965157503e-5,Van Genechten Model
+arskeosw,02,1.1863049869888116e-4,Van Genechten Model
+arskeosw,08,1.108764028957672e-4,Van Genechten Model
+arskeosw,20,8.987065288751404e-5,Van Genechten Model
+bentlake,02,5.242577710760587e-6,Van Genechten Model
+bentlake,08,4.5044231158693266e-5,Van Genechten Model
+bentlake,20,2.236525945580072e-5,Van Genechten Model
+blmbattl,02,4.169985378890452e-5,Van Genechten Model
+blmbattl,08,3.057051725662483e-5,Van Genechten Model
+blmbattl,20,2.597279248091899e-4,Van Genechten Model
+blmbelfr,04,1.8290312870329487e-5,Van Genechten Model
+blmbelfr,08,3.5794811275140033e-5,Van Genechten Model
+blmbelfr,20,1.391664048822122e-5,Van Genechten Model
+blmbroad,02,6.562847957930566e-5,Van Genechten Model
+blmbroad,08,7.842246559266772e-5,Van Genechten Model
+blmbroad,20,1.105329759575612e-4,Van Genechten Model
+blmcapit,02,2.7469743358516907e-5,Van Genechten Model
+blmcapit,08,3.3360127339044595e-5,Van Genechten Model
+blmcapit,20,2.3187023448247856e-4,Van Genechten Model
+blmglend,02,2.5338562048948457e-4,Van Genechten Model
+blmglend,08,2.014982053216115e-4,Van Genechten Model
+blmglend,20,5.1679758551736145e-5,Van Genechten Model
+blmglnor,02,2.970602697285262e-4,Van Genechten Model
+blmglnor,08,1.214157566947445e-4,Van Genechten Model
+blmglnor,20,3.4434437391439497e-5,Van Genechten Model
+blmhardi,02,1.3702202854244165e-4,Van Genechten Model
+blmhardi,08,3.572764846243651e-5,Van Genechten Model
+blmhardi,20,5.392107013136742e-5,Van Genechten Model
+blmhavre,02,1.322480954556989e-4,Van Genechten Model
+blmhavre,08,2.9403574861332317e-5,Van Genechten Model
+blmhavre,20,1.4757065719081785e-4,Van Genechten Model
+blmmatad,02,1.0009551053970768e-5,Van Genechten Model
+blmmatad,08,1.964476635942681e-4,Van Genechten Model
+blmmatad,20,5.555357313270355e-5,Van Genechten Model
+blmplevn,02,4.325192490262422e-5,Van Genechten Model
+blmplevn,08,7.012291664333501e-5,Van Genechten Model
+blmplevn,20,1.4474377430559057e-5,Van Genechten Model
+blmpumpk,02,1.8109380786172804e-4,Van Genechten Model
+blmpumpk,08,9.164253900863364e-5,Van Genechten Model
+blmpumpk,20,1.9079899259316415e-4,Van Genechten Model
+blmround,02,1.3443181389793536e-4,Van Genechten Model
+blmround,08,4.1224999130492456e-5,Van Genechten Model
+blmround,20,7.397377971537842e-5,Van Genechten Model
+blmroyno,04,6.384697611273819e-5,Van Genechten Model
+blmroyno,08,7.80720274509449e-5,Van Genechten Model
+blmroyno,20,1.1131686527219924e-4,Van Genechten Model
+blmterry,02,5.94909298275166e-6,Van Genechten Model
+blmterry,08,5.751496114806235e-6,Van Genechten Model
+blmterry,20,6.947223853805425e-5,Van Genechten Model
+blmwarre,02,4.653964715919967e-5,Van Genechten Model
+blmwarre,08,6.000581790950939e-5,Van Genechten Model
+blmwarre,20,1.0387339345540774e-4,Van Genechten Model
+conradmt,02,5.265293832762171e-5,Van Genechten Model
+conradmt,08,5.052533985737781e-5,Van Genechten Model
+conradmt,20,2.2521838419289053e-5,Van Genechten Model
+ftbentcb,02,1.1569314588851214e-5,Van Genechten Model
+ftbentcb,08,7.699469013324736e-6,Van Genechten Model
+ftbentcb,20,4.392892294227823e-6,Van Genechten Model
+lomawood,02,1.3117507619830505e-4,Van Genechten Model
+lomawood,08,2.7062272896379576e-5,Van Genechten Model
+lomawood,20,2.155002111779388e-5,Van Genechten Model
+mdabench,02,1.696492636438738e-4,Van Genechten Model
+mdabench,08,2.2648379617334643e-6,Van Genechten Model
+mdabench,20,3.231019369762464e-6,Van Genechten Model
+mdacasca,04,1.0129869933493724e-4,Van Genechten Model
+mdacasca,08,1.0558424523485516e-5,Van Genechten Model
+mdacasca,20,1.7420795245756046e-5,Van Genechten Model
+mdachine,02,2.5436384110156905e-5,Van Genechten Model
+mdachine,08,4.502759787187269e-5,Van Genechten Model
+mdachine,20,8.117240716302706e-5,Van Genechten Model
+mdachote,02,2.616089742419809e-5,Van Genechten Model
+mdachote,08,5.087419745010762e-5,Van Genechten Model
+mdachote,20,1.427494866491563e-4,Van Genechten Model
+mdadillo,04,2.3978270824836836e-4,Van Genechten Model
+mdadillo,08,1.0533133284859824e-4,Van Genechten Model
+mdadillo,20,5.682924406465645e-6,Van Genechten Model
+mdaedgar,02,1.1627246045753906e-4,Van Genechten Model
+mdaedgar,08,3.093578503077585e-5,Van Genechten Model
+mdaedgar,20,2.0226436108479044e-5,Van Genechten Model
+mdafroid,04,1.0683540615582966e-5,Van Genechten Model
+mdafroid,08,9.351720971506374e-6,Van Genechten Model
+mdafroid,20,8.430438426778071e-7,Van Genechten Model
+mdaglidf,02,1.128793577741872e-4,Van Genechten Model
+mdaglidf,08,9.781248152337147e-5,Van Genechten Model
+mdaglidf,20,9.266193531557384e-5,Van Genechten Model
+mdahardi,04,1.6192913319728955e-5,Van Genechten Model
+mdahardi,08,6.348928553826107e-5,Van Genechten Model
+mdahardi,20,2.889745329370451e-5,Van Genechten Model
+mdahogel,02,1.9968552495818863e-5,Van Genechten Model
+mdahogel,08,2.911766862319049e-5,Van Genechten Model
+mdahogel,20,1.2302942638461618e-5,Van Genechten Model
+mdaledge,04,1.944675734483611e-5,Van Genechten Model
+mdaledge,08,9.593533816408018e-6,Van Genechten Model
+mdaledge,20,3.4776565905361056e-4,Van Genechten Model
+mdamalta,04,7.395588805935264e-5,Van Genechten Model
+mdamalta,08,1.6689531037452073e-4,Van Genechten Model
+mdamalta,20,2.1877179673510837e-4,Van Genechten Model
+mdamanha,04,1.9467750587045737e-4,Van Genechten Model
+mdamanha,08,5.824727559862727e-4,Van Genechten Model
+mdamanha,20,7.117676040674118e-5,Van Genechten Model
+mdamiles,04,3.654060672274308e-5,Van Genechten Model
+mdamiles,08,9.730588751842438e-5,Van Genechten Model
+mdamiles,20,9.903482207725971e-5,Van Genechten Model
+mdaoilmo,04,7.769602004252668e-5,Van Genechten Model
+mdaoilmo,08,9.751537037148433e-5,Van Genechten Model
+mdaoilmo,20,4.90992480525205e-5,Van Genechten Model
+mdapower,02,7.347145069705192e-5,Van Genechten Model
+mdapower,08,6.358368371807316e-5,Van Genechten Model
+mdapower,20,9.74682830405774e-6,Van Genechten Model
+mdascoby,04,2.8378563781719983e-5,Van Genechten Model
+mdascoby,08,1.5775175036578158e-5,Van Genechten Model
+mdascoby,20,6.293886828284997e-6,Van Genechten Model
+mdatost2,02,5.566961706668998e-5,Van Genechten Model
+mdatost2,08,4.466666351960624e-5,Van Genechten Model
+mdatost2,20,7.144168558084406e-5,Van Genechten Model
+mdatwinb,02,6.236668943779455e-5,Van Genechten Model
+mdatwinb,08,7.360979020508807e-5,Van Genechten Model
+mdatwinb,20,8.225431238389343e-5,Van Genechten Model
+moltwest,02,8.169989101817923e-5,Van Genechten Model
+moltwest,08,1.7788749587437542e-4,Van Genechten Model
+moltwest,20,1.6207163903800818e-4,Van Genechten Model
+namupper,02,3.414044434892878e-6,Van Genechten Model
+namupper,08,1.886195184454975e-5,Van Genechten Model
+namupper,20,6.696931334720286e-5,Van Genechten Model
+raplejen,02,1.787767252484848e-4,Van Genechten Model
+raplejen,08,5.4324280585404287e-5,Van Genechten Model
+raplejen,20,2.3091106479980127e-5,Van Genechten Model
+reedpoin,02,2.0565629891380686e-5,Van Genechten Model
+reedpoin,08,2.724466530959781e-5,Van Genechten Model
+reedpoin,20,2.583464284142167e-5,Van Genechten Model
+sidneymt,02,2.9796925742009533e-5,Van Genechten Model
+sidneymt,08,4.272597655813806e-6,Van Genechten Model
+sidneymt,20,7.13646600560804e-6,Van Genechten Model
+turekran,02,2.648319482213648e-5,Van Genechten Model
+turekran,08,1.1868474744091296e-4,Van Genechten Model
+turekran,20,3.928523894760394e-6,Van Genechten Model
+wrsround,02,9.454555425389102e-6,Van Genechten Model
+wrsround,08,8.057536161694668e-6,Van Genechten Model
+wrsround,20,3.750944131546982e-7,Van Genechten Model
+wsrabsaw,02,4.888814298067752e-6,Van Genechten Model
+wsrabsaw,08,3.2095552840693374e-6,Van Genechten Model
+wsrabsaw,20,9.69092667969367e-5,Van Genechten Model
+wsrboydw,02,6.880447599166187e-6,Van Genechten Model
+wsrboydw,08,8.934284423020447e-6,Van Genechten Model
+wsrboydw,20,1.1501667695833049e-6,Van Genechten Model
+wsrbroad,02,3.092683931093312e-5,Van Genechten Model
+wsrbroad,08,1.1779764757392768e-4,Van Genechten Model
+wsrbroad,20,1.1477768983086958e-5,Van Genechten Model
+wsrmelvi,02,8.475498787171176e-6,Van Genechten Model
+wsrmelvi,08,2.4055038369454756e-6,Van Genechten Model
+wsrmelvi,20,2.7387054274595637e-6,Van Genechten Model
+arskeogh,02,1.93774129376447e-5,Van Genechten Model
+arskeogh,08,1.5049934635007484e-5,Van Genechten Model
+arskeogh,20,2.5006591211667144e-5,Van Genechten Model
+arskeose,02,4.094499067605805e-4,Van Genechten Model
+arskeose,08,8.574248625786056e-5,Van Genechten Model
+arskeose,20,2.7049197965157503e-5,Van Genechten Model
+arskeosw,02,1.1863049869888116e-4,Van Genechten Model
+arskeosw,08,1.108764028957672e-4,Van Genechten Model
+arskeosw,20,8.987065288751404e-5,Van Genechten Model
+bentlake,02,5.242577710760587e-6,Van Genechten Model
+bentlake,08,4.5044231158693266e-5,Van Genechten Model
+bentlake,20,2.236525945580072e-5,Van Genechten Model
+blmbattl,02,4.169985378890452e-5,Van Genechten Model
+blmbattl,08,3.057051725662483e-5,Van Genechten Model
+blmbattl,20,2.597279248091899e-4,Van Genechten Model
+blmbelfr,04,1.8290312870329487e-5,Van Genechten Model
+blmbelfr,08,3.5794811275140033e-5,Van Genechten Model
+blmbelfr,20,1.391664048822122e-5,Van Genechten Model
+blmbroad,02,6.562847957930566e-5,Van Genechten Model
+blmbroad,08,7.842246559266772e-5,Van Genechten Model
+blmbroad,20,1.105329759575612e-4,Van Genechten Model
+blmcapit,02,2.7469743358516907e-5,Van Genechten Model
+blmcapit,08,3.3360127339044595e-5,Van Genechten Model
+blmcapit,20,2.3187023448247856e-4,Van Genechten Model
+blmglend,02,2.5338562048948457e-4,Van Genechten Model
+blmglend,08,2.014982053216115e-4,Van Genechten Model
+blmglend,20,5.1679758551736145e-5,Van Genechten Model
+blmglnor,02,2.970602697285262e-4,Van Genechten Model
+blmglnor,08,1.214157566947445e-4,Van Genechten Model
+blmglnor,20,3.4434437391439497e-5,Van Genechten Model
+blmhardi,02,1.3702202854244165e-4,Van Genechten Model
+blmhardi,08,3.572764846243651e-5,Van Genechten Model
+blmhardi,20,5.392107013136742e-5,Van Genechten Model
+blmhavre,02,1.322480954556989e-4,Van Genechten Model
+blmhavre,08,2.9403574861332317e-5,Van Genechten Model
+blmhavre,20,1.4757065719081785e-4,Van Genechten Model
+blmmatad,02,1.0009551053970768e-5,Van Genechten Model
+blmmatad,08,1.964476635942681e-4,Van Genechten Model
+blmmatad,20,5.555357313270355e-5,Van Genechten Model
+blmplevn,02,4.325192490262422e-5,Van Genechten Model
+blmplevn,08,7.012291664333501e-5,Van Genechten Model
+blmplevn,20,1.4474377430559057e-5,Van Genechten Model
+blmpumpk,02,1.8109380786172804e-4,Van Genechten Model
+blmpumpk,08,9.164253900863364e-5,Van Genechten Model
+blmpumpk,20,1.9079899259316415e-4,Van Genechten Model
+blmround,02,1.3443181389793536e-4,Van Genechten Model
+blmround,08,4.1224999130492456e-5,Van Genechten Model
+blmround,20,7.397377971537842e-5,Van Genechten Model
+blmroyno,04,6.384697611273819e-5,Van Genechten Model
+blmroyno,08,7.80720274509449e-5,Van Genechten Model
+blmroyno,20,1.1131686527219924e-4,Van Genechten Model
+blmterry,02,5.94909298275166e-6,Van Genechten Model
+blmterry,08,5.751496114806235e-6,Van Genechten Model
+blmterry,20,6.947223853805425e-5,Van Genechten Model
+blmwarre,02,4.653964715919967e-5,Van Genechten Model
+blmwarre,08,6.000581790950939e-5,Van Genechten Model
+blmwarre,20,1.0387339345540774e-4,Van Genechten Model
+conradmt,02,5.265293832762171e-5,Van Genechten Model
+conradmt,08,5.052533985737781e-5,Van Genechten Model
+conradmt,20,2.2521838419289053e-5,Van Genechten Model
+ftbentcb,02,1.1569314588851214e-5,Van Genechten Model
+ftbentcb,08,7.699469013324736e-6,Van Genechten Model
+ftbentcb,20,4.392892294227823e-6,Van Genechten Model
+lomawood,02,1.3117507619830505e-4,Van Genechten Model
+lomawood,08,2.7062272896379576e-5,Van Genechten Model
+lomawood,20,2.155002111779388e-5,Van Genechten Model
+mdabench,02,1.696492636438738e-4,Van Genechten Model
+mdabench,08,2.2648379617334643e-6,Van Genechten Model
+mdabench,20,3.231019369762464e-6,Van Genechten Model
+mdacasca,04,1.0129869933493724e-4,Van Genechten Model
+mdacasca,08,1.0558424523485516e-5,Van Genechten Model
+mdacasca,20,1.7420795245756046e-5,Van Genechten Model
+mdachine,02,2.5436384110156905e-5,Van Genechten Model
+mdachine,08,4.502759787187269e-5,Van Genechten Model
+mdachine,20,8.117240716302706e-5,Van Genechten Model
+mdachote,02,2.616089742419809e-5,Van Genechten Model
+mdachote,08,5.087419745010762e-5,Van Genechten Model
+mdachote,20,1.427494866491563e-4,Van Genechten Model
+mdadillo,04,2.3978270824836836e-4,Van Genechten Model
+mdadillo,08,1.0533133284859824e-4,Van Genechten Model
+mdadillo,20,5.682924406465645e-6,Van Genechten Model
+mdaedgar,02,1.1627246045753906e-4,Van Genechten Model
+mdaedgar,08,3.093578503077585e-5,Van Genechten Model
+mdaedgar,20,2.0226436108479044e-5,Van Genechten Model
+mdafroid,04,1.0683540615582966e-5,Van Genechten Model
+mdafroid,08,9.351720971506374e-6,Van Genechten Model
+mdafroid,20,8.430438426778071e-7,Van Genechten Model
+mdaglidf,02,1.128793577741872e-4,Van Genechten Model
+mdaglidf,08,9.781248152337147e-5,Van Genechten Model
+mdaglidf,20,9.266193531557384e-5,Van Genechten Model
+mdahardi,04,1.6192913319728955e-5,Van Genechten Model
+mdahardi,08,6.348928553826107e-5,Van Genechten Model
+mdahardi,20,2.889745329370451e-5,Van Genechten Model
+mdahogel,02,1.9968552495818863e-5,Van Genechten Model
+mdahogel,08,2.911766862319049e-5,Van Genechten Model
+mdahogel,20,1.2302942638461618e-5,Van Genechten Model
+mdaledge,04,1.944675734483611e-5,Van Genechten Model
+mdaledge,08,9.593533816408018e-6,Van Genechten Model
+mdaledge,20,3.4776565905361056e-4,Van Genechten Model
+mdamalta,04,7.395588805935264e-5,Van Genechten Model
+mdamalta,08,1.6689531037452073e-4,Van Genechten Model
+mdamalta,20,2.1877179673510837e-4,Van Genechten Model
+mdamanha,04,1.9467750587045737e-4,Van Genechten Model
+mdamanha,08,5.824727559862727e-4,Van Genechten Model
+mdamanha,20,7.117676040674118e-5,Van Genechten Model
+mdamiles,04,3.654060672274308e-5,Van Genechten Model
+mdamiles,08,9.730588751842438e-5,Van Genechten Model
+mdamiles,20,9.903482207725971e-5,Van Genechten Model
+mdaoilmo,04,7.769602004252668e-5,Van Genechten Model
+mdaoilmo,08,9.751537037148433e-5,Van Genechten Model
+mdaoilmo,20,4.90992480525205e-5,Van Genechten Model
+mdapower,02,7.347145069705192e-5,Van Genechten Model
+mdapower,08,6.358368371807316e-5,Van Genechten Model
+mdapower,20,9.74682830405774e-6,Van Genechten Model
+mdascoby,04,2.8378563781719983e-5,Van Genechten Model
+mdascoby,08,1.5775175036578158e-5,Van Genechten Model
+mdascoby,20,6.293886828284997e-6,Van Genechten Model
+mdatost2,02,5.566961706668998e-5,Van Genechten Model
+mdatost2,08,4.466666351960624e-5,Van Genechten Model
+mdatost2,20,7.144168558084406e-5,Van Genechten Model
+mdatwinb,02,6.236668943779455e-5,Van Genechten Model
+mdatwinb,08,7.360979020508807e-5,Van Genechten Model
+mdatwinb,20,8.225431238389343e-5,Van Genechten Model
+moltwest,02,8.169989101817923e-5,Van Genechten Model
+moltwest,08,1.7788749587437542e-4,Van Genechten Model
+moltwest,20,1.6207163903800818e-4,Van Genechten Model
+namupper,02,3.414044434892878e-6,Van Genechten Model
+namupper,08,1.886195184454975e-5,Van Genechten Model
+namupper,20,6.696931334720286e-5,Van Genechten Model
+raplejen,02,1.787767252484848e-4,Van Genechten Model
+raplejen,08,5.4324280585404287e-5,Van Genechten Model
+raplejen,20,2.3091106479980127e-5,Van Genechten Model
+reedpoin,02,2.0565629891380686e-5,Van Genechten Model
+reedpoin,08,2.724466530959781e-5,Van Genechten Model
+reedpoin,20,2.583464284142167e-5,Van Genechten Model
+sidneymt,02,2.9796925742009533e-5,Van Genechten Model
+sidneymt,08,4.272597655813806e-6,Van Genechten Model
+sidneymt,20,7.13646600560804e-6,Van Genechten Model
+turekran,02,2.648319482213648e-5,Van Genechten Model
+turekran,08,1.1868474744091296e-4,Van Genechten Model
+turekran,20,3.928523894760394e-6,Van Genechten Model
+wrsround,02,9.454555425389102e-6,Van Genechten Model
+wrsround,08,8.057536161694668e-6,Van Genechten Model
+wrsround,20,3.750944131546982e-7,Van Genechten Model
+wsrabsaw,02,4.888814298067752e-6,Van Genechten Model
+wsrabsaw,08,3.2095552840693374e-6,Van Genechten Model
+wsrabsaw,20,9.69092667969367e-5,Van Genechten Model
+wsrboydw,02,6.880447599166187e-6,Van Genechten Model
+wsrboydw,08,8.934284423020447e-6,Van Genechten Model
+wsrboydw,20,1.1501667695833049e-6,Van Genechten Model
+wsrbroad,02,3.092683931093312e-5,Van Genechten Model
+wsrbroad,08,1.1779764757392768e-4,Van Genechten Model
+wsrbroad,20,1.1477768983086958e-5,Van Genechten Model
+wsrmelvi,02,8.475498787171176e-6,Van Genechten Model
+wsrmelvi,08,2.4055038369454756e-6,Van Genechten Model
+wsrmelvi,20,2.7387054274595637e-6,Van Genechten Model
