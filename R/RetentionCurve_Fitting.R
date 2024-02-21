@@ -1,0 +1,184 @@
+if ("scales" %in% rownames(installed.packages()) == FALSE) {install.packages("scales")}
+if ("readxl" %in% rownames(installed.packages()) == FALSE) {install.packages("readxl")}
+if ("grid" %in% rownames(installed.packages()) == FALSE) {install.packages("grid")}
+if ("gridExtra" %in% rownames(installed.packages()) == FALSE) {install.packages("gridExtra")}
+if ("cowplot" %in% rownames(installed.packages()) == FALSE) {install.packages("cowplot")}
+if ("minpack.lm" %in% rownames(installed.packages()) == FALSE) {install.packages("minpack.lm")}
+if ("HydroMe" %in% rownames(installed.packages()) == FALSE) {install.packages("HydroMe")}
+if ("pracma" %in% rownames(installed.packages()) == FALSE) {install.packages("pracma")}
+if ("tidyverse" %in% rownames(installed.packages()) == FALSE) {install.packages("tidyverse")}
+
+# Water Retention Characterization (Authors: Zach Hoylman, Kayla Jamerson, and Fin Malone)
+require(scales)
+library(readxl)
+library(grid)
+library(gridExtra)
+library(cowplot)
+library(minpack.lm)
+library(pracma)
+library(tidyverse)
+
+read_excel_allsheets <- function(filename, tibble = FALSE) {
+  # I prefer straight data.frames
+  # but if you like tidyverse tibbles (the default with read_excel)
+  # then just pass tibble = TRUE
+  sheets <- readxl::excel_sheets(filename)
+  x <- lapply(sheets, function(X) readxl::read_excel(filename, sheet = X))
+  if(!tibble) x <- lapply(x, as.data.frame)
+  names(x) <- sheets
+  x
+}
+
+lseq <- function(from=1, to=100000, length.out=6) {
+  # logarithmic spaced sequence
+  # blatantly stolen from library("emdbook"), because need only this
+  exp(seq(log(from), log(to), length.out = length.out))
+}
+
+
+fit_soils = function(data){
+  file_name = basename(data)
+  data = read_excel_allsheets(data)
+  
+  # Select Sheet
+  pF_vwc = data$`Evaluation-Retention Θ(pF)` %>% filter((`pF [-]` > 0) & (`Water Content [Vol%]` > 0))
+  tryCatch({
+    WP4C = data$`Evaluation-WP4 manual` %>%
+      filter(!(`pF [-]` == 'NaN')) %>%
+      mutate(`Water Content [Vol%]` = 
+               ((as.numeric(`Gross wet mass [g]`) - as.numeric(`Tare mass [g]`)) -
+                   (as.numeric(`Gross dry mass [g]`) - as.numeric(`Tare mass [g]`))) /
+               (as.numeric(`Gross dry mass [g]`) - as.numeric(`Tare mass [g]`)) * 100 *
+               data$Information$Value[which(data$Information$`Parameter Name` == 'Density [g/cm3]:')] %>% as.numeric(),
+             
+             `pF [-]` = as.numeric(`pF [-]`))
+    
+    pF_vwc = full_join(pF_vwc, WP4C %>% select(`pF [-]`,`Water Content [Vol%]`))
+  })
+  # Convert pF into kPa
+  MPa = (10^(pF_vwc$`pF [-]`)) / 10000
+  kPa = MPa * 1000
+  
+  # Convert Volumetric Water Content to fraction (m^-3/m^-3)
+  VWC = pF_vwc$`Water Content [Vol%]`/100
+  
+  
+  ######################## FIT MODELS
+  
+  # van Genuchten Model
+  van <- nlsLM(VWC ~ O_r + (O_s - O_r)/((1+alpha*(abs(kPa)^n))^(1-(1/n))),
+               start = list(O_r = 0, O_s = 0.483, alpha = 0.1966, n = 1.241),
+               control = nls.lm.control(maxiter=500))
+  
+  
+  # Kosugi Model
+  Kosugi <- nlsLM( VWC ~ O_r + (O_s - O_r) * ((0.5*erfc(log(kPa/h_m) / (sqrt(2)*sigma)))),
+                   control = nls.lm.control(maxiter=500),
+                   start = list(O_r= 0, O_s = 0.483, sigma = 0.728, h_m = 116))
+  
+  
+  # Fredlund-Xing Model
+  
+  FX = tryCatch({FX = nlsLM(VWC ~ O_r + (O_s - O_r)/((log(exp(1)+((kPa/h)^(n)))^(m))),           # Catches fitting error and changes
+                            start = list( O_r = 0, O_s = 0.483, n = 1.241, m=0.559, h =0.01),    # O_r starting parameter
+                            control = nls.lm.control(maxiter=500))},
+                error = function(e)
+                {FX = nlsLM(VWC ~ O_r + (O_s - O_r)/((log(exp(1)+((kPa/h)^(n)))^(m))),
+                            start = list( O_r = 0.8, O_s = 0.483, n = 1.241, m=0.559, h =0.01),
+                            control = nls.lm.control(maxiter=500))
+                return(FX)})
+  
+  
+  # Store Model Names
+  models = list(van, Kosugi, FX) 
+  model_names = c("Van Genuchten Model",
+                  "Kosugi Model",
+                  "Fredlund-Xing Model")
+  van_summary <- summary(van)
+  Kosugi_summary <- summary(Kosugi)
+  FX_summary <- summary(FX)
+  
+  # Select Best Fit
+  van_RSE <- van_summary$sigma
+  Kosugi_RSE <- Kosugi_summary$sigma
+  FX_RSE <- FX_summary$sigma
+  
+  
+  RSE_df <- data_frame(van_RSE, Kosugi_RSE, FX_RSE)
+  
+  # Always use FX model because we have the inverse).  
+  Best_Fit <- "Fredlund-Xing Model"
+  best_model = models[[which(model_names == Best_Fit)]]
+  
+  
+  dummy_kPa1 = data.frame(kPa = lseq(min(kPa), max(kPa), 10000))
+  dummy_kPa2 = data.frame(kPa = lseq(.1, 6309573, 10000))
+  
+  # Predict Theoretical Curve Using Dummy Data
+  model_predict1 = predict(best_model, newdata = dummy_kPa1)
+  model_predict2 = predict(best_model, newdata = dummy_kPa2)
+  # Store Model Coefficients for Inverse Function
+  model_coef = coef(best_model)
+  
+  # Identify site name from file
+  site_name = file_name
+  
+  # Compile Export List
+  export = list()
+  export[[1]] = best_model
+  export[[2]] = data.frame(raw_kPa = kPa,
+                           raw_VWC = VWC)
+  export[[3]] = data.frame(kPa = dummy_kPa1,
+                           fit_VWC = model_predict1)
+  export[[4]] = file_name
+  export[[5]] = model_names[which(model_names == Best_Fit)]
+  export[[6]] = site_name
+  export[[7]] = RSE_df
+  export[[8]] = data.frame(kPa = dummy_kPa2,
+                           fit_VWC = model_predict2)
+  return(export)
+  
+}
+
+
+name_from_data <- function(f) {
+  station <- dirname(f) %>%
+    dirname() %>%
+    basename() %>% 
+    stringr::str_split_1("_") %>% 
+    magrittr::extract(1)
+
+  depth <- basename(f) %>% 
+    stringr::str_split_1("_") %>% 
+    tail(2) %>%
+    head(1) %>% 
+    stringr::str_replace("cm", "") %>% 
+    stringr::str_pad(2, pad = "0")
+  
+  return(glue::glue(
+    "{station}{depth}.xlsx_FX_model.RDS"
+  ))
+}
+
+# File directory for running the fit(s)
+work.dir = "./data/zipped_data/acesands_Post-Processing_zip/Post-Processing/"
+
+data = list.files(work.dir, pattern = '.xlsx$', full.names = T)
+
+
+for(i in 1:length(data)){
+  print(i)
+  site_name = name_from_data(data[i])
+  #run model fit
+  model = fit_soils(data[i])
+  
+  #plot and export 
+  plot_data(model)
+  
+  print(model[[7]])
+  
+  saveRDS(model, file.path(work.dir, site_name))
+  # write_csv(x = model[[3]], paste0(work.dir,'/', model[[6]], "_predicted_data.csv"))
+}
+
+
