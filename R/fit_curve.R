@@ -1,13 +1,3 @@
-if ("scales" %in% rownames(installed.packages()) == FALSE) {install.packages("scales")}
-if ("readxl" %in% rownames(installed.packages()) == FALSE) {install.packages("readxl")}
-if ("grid" %in% rownames(installed.packages()) == FALSE) {install.packages("grid")}
-if ("gridExtra" %in% rownames(installed.packages()) == FALSE) {install.packages("gridExtra")}
-if ("cowplot" %in% rownames(installed.packages()) == FALSE) {install.packages("cowplot")}
-if ("minpack.lm" %in% rownames(installed.packages()) == FALSE) {install.packages("minpack.lm")}
-if ("HydroMe" %in% rownames(installed.packages()) == FALSE) {install.packages("HydroMe")}
-if ("pracma" %in% rownames(installed.packages()) == FALSE) {install.packages("pracma")}
-if ("tidyverse" %in% rownames(installed.packages()) == FALSE) {install.packages("tidyverse")}
-
 # Water Retention Characterization (Authors: Zach Hoylman, Kayla Jamerson, and Fin Malone)
 require(scales)
 library(readxl)
@@ -160,25 +150,34 @@ name_from_data <- function(f) {
   ))
 }
 
-# File directory for running the fit(s)
-work.dir = "./data/zipped_data/acesands_Post-Processing_zip/Post-Processing/"
-
-data = list.files(work.dir, pattern = '.xlsx$', full.names = T)
-
-
-for(i in 1:length(data)){
-  print(i)
-  site_name = name_from_data(data[i])
-  #run model fit
-  model = fit_soils(data[i])
+zipped_data = "./data/zipped_data/acesands_Post-Processing.zip"
+fit_all_depths <- function(zipped_data) {
   
-  #plot and export 
-  plot_data(model)
+  tmp <- tempdir()
+  unzip(zipped_data, exdir=tmp)
   
-  print(model[[7]])
+  station <- basename(zipped_data) %>% 
+    stringr::str_split_1("_") %>% 
+    magrittr::extract(1)
   
-  saveRDS(model, file.path(work.dir, site_name))
-  # write_csv(x = model[[3]], paste0(work.dir,'/', model[[6]], "_predicted_data.csv"))
+  list.files(
+    file.path(tmp, "Post-Processing"), pattern = '.xlsx$', full.names = T
+  ) %>% 
+    purrr::map(function(x) {
+      model = fit_soils(x)
+      depth = stringr::str_extract(x, "\\d{2}cm")
+      
+      return(tibble::tibble(
+        station = station,
+        depth = depth, 
+        model = list(model)
+      ))
+    })
 }
+# File directory for running the fit(s)
+
+
+
+
 
 
