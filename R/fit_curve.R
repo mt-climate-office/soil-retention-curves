@@ -13,7 +13,7 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
   # but if you like tidyverse tibbles (the default with read_excel)
   # then just pass tibble = TRUE
   sheets <- readxl::excel_sheets(filename)
-  x <- lapply(sheets, function(X) readxl::read_excel(filename, sheet = X))
+  x <- lapply(sheets, function(X) readxl::read_excel(filename, sheet = X, .name_repair = "unique_quiet"))
   if(!tibble) x <- lapply(x, as.data.frame)
   names(x) <- sheets
   x
@@ -43,7 +43,12 @@ fit_soils = function(data){
              
              `pF [-]` = as.numeric(`pF [-]`))
     
-    pF_vwc = full_join(pF_vwc, WP4C %>% select(`pF [-]`,`Water Content [Vol%]`))
+    pF_vwc = full_join(
+      pF_vwc,
+      WP4C %>% 
+        select(`pF [-]`,`Water Content [Vol%]`),
+      by=c("pF [-]", "Water Content [Vol%]")
+    )
   })
   # Convert pF into kPa
   MPa = (10^(pF_vwc$`pF [-]`)) / 10000
@@ -107,6 +112,7 @@ fit_soils = function(data){
   # Predict Theoretical Curve Using Dummy Data
   model_predict1 = predict(best_model, newdata = dummy_kPa1)
   model_predict2 = predict(best_model, newdata = dummy_kPa2)
+  
   # Store Model Coefficients for Inverse Function
   model_coef = coef(best_model)
   
@@ -126,6 +132,8 @@ fit_soils = function(data){
   export[[7]] = RSE_df
   export[[8]] = data.frame(kPa = dummy_kPa2,
                            fit_VWC = model_predict2)
+  
+  names(export) <- c("model", "raw_data", "fit_data", "filename", "best_fit", "filename2", "error", "fit_data2")
   return(export)
   
 }
@@ -150,7 +158,6 @@ name_from_data <- function(f) {
   ))
 }
 
-zipped_data = "./data/zipped_data/acesands_Post-Processing.zip"
 fit_all_depths <- function(zipped_data) {
   
   tmp <- tempdir()
@@ -160,21 +167,25 @@ fit_all_depths <- function(zipped_data) {
     stringr::str_split_1("_") %>% 
     magrittr::extract(1)
   
-  list.files(
+  out <- list.files(
     file.path(tmp, "Post-Processing"), pattern = '.xlsx$', full.names = T
   ) %>% 
     purrr::map(function(x) {
-      model = fit_soils(x)
-      depth = stringr::str_extract(x, "\\d{2}cm")
+      model = suppressWarnings(fit_soils(x))
+      depth = stringr::str_extract(x, "\\d{2,3}cm")
       
       return(tibble::tibble(
         station = station,
         depth = depth, 
         model = list(model)
       ))
-    })
+    }) %>%
+    dplyr::bind_rows()
+  
+  unlink(tmp, recursive = T)
+  
+  return(out)
 }
-# File directory for running the fit(s)
 
 
 

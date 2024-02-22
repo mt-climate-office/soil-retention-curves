@@ -1,84 +1,120 @@
 library(magrittr)
+source("./R/fit_curve.R")
 
-params_to_csv <- function(x) {
-  
-  model <- readRDS(x)  
-  
-  tibble::tibble(
-    station = basename(x) %>% 
-      stringr::str_sub(1, 8),
-    depth = basename(x) %>% 
-      stringr::str_sub(9, 10),
-    params = summary(model[[1]])$coefficients %>% 
-      as.data.frame() %>% 
-      tibble::rownames_to_column(var="parameter") %>% 
-      dplyr::select(parameter, value=Estimate) %>% 
-      tidyr::pivot_wider(names_from=parameter) %>% 
-      jsonlite::toJSON(digits=8),
-    model = basename(x) %>% 
-      stringr::str_split_1("_") %>% 
-      magrittr::extract(2)
-  ) %>% 
-    dplyr::relocate(model, .before=params) 
+recode_depth <- function(dat) {
+  dat %>% 
+    dplyr::mutate(
+      depth = stringr::str_replace(depth, "cm", "") %>% 
+        as.numeric() %>% 
+        magrittr::multiply_by(-10)
+    )
 }
 
-raw_data_to_csv <- function(x) {
-  model <- readRDS(x)  
+params_to_csv <- function(model, station, depth) {
   
   tibble::tibble(
-    station = basename(x) %>% 
-      stringr::str_sub(1, 8),
-    depth = basename(x) %>% 
-      stringr::str_sub(9, 10),
-    data = model[[2]]
+    station = station,
+    depth = depth,
+    params = summary(model$model)$coefficients %>% 
+      as.data.frame() %>% 
+      tibble::rownames_to_column(var="parameter") %>% 
+      dplyr::mutate(
+        parameter = stringr::str_replace(parameter, "O_", "")
+      ) %>%
+      dplyr::select(parameter, value=Estimate) %>% 
+      tidyr::pivot_wider(names_from=parameter) %>% 
+      jsonlite::toJSON(digits=8) %>% 
+      list(),
+    model = "FX"
+  ) %>% 
+    dplyr::relocate(model, .before=params) %>%
+    recode_depth()
+}
+
+raw_data_to_csv <- function(model, station, depth) {
+
+  tibble::tibble(
+    station = station,
+    depth = depth,
+    data = model$raw_data
   ) %>% 
     tidyr::unnest(data) %>% 
     dplyr::rename(
       kpa=raw_kPa,
       vwc=raw_VWC
-    )
-}
-
-process_all_to_table <- function(func, data_dir, out_dir, fname) {
-  out <- list.files(data_dir, full.names = T, pattern = ".RDS") %>% 
-    purrr::map(func)
-  
-  out %>% 
-    dplyr::bind_rows() %>%
-    dplyr::mutate(
-      depth = dplyr::recode(
-        depth, 
-        "02"=-100,
-        "04"=-100,
-        "08"=-200,
-        "20"=-500
-      )
-    ) %>%
-    dplyr::distinct() %>% 
-    readr::write_csv(file.path(out_dir, fname))
-}
-
-reformat_error_table <- function(f = "./data/Error_MSE/MSE", out_dir) {
-  readr::read_csv(f, show_col_types = FALSE) %>% 
-    dplyr::mutate(
-      Depth = dplyr::recode(
-        Depth, 
-        "02"=-100,
-        "04"=-100,
-        "08"=-200,
-        "20"=-500
-      ),
-      model = dplyr::case_when(
-        model == "Fredlund-Xing Model" ~ "FX", 
-        TRUE ~ "VG"
-      )
     ) %>% 
-    janitor::clean_names() %>% 
-    dplyr::relocate(model, .before = mse) %>% 
-    dplyr::distinct() %>% 
-    readr::write_csv(file.path(out_dir, "model_error.csv"))
+    recode_depth()
 }
 
-process_all_to_table(params_to_csv, "./data/RDS", "./data/for_db/", "parameters.csv")
-process_all_to_table(raw_data_to_csv, "./data/RDS", "./data/for_db/", "vwc_kpa_observations.csv")
-reformat_error_table("./data/Error_MSE/MSE", "./data/for_db")
+# process_all_to_table <- function(func, data_dir, out_dir, fname) {
+#   out <- list.files(data_dir, full.names = T, pattern = ".RDS") %>% 
+#     purrr::map(func)
+#   
+#   out %>% 
+#     dplyr::bind_rows() %>%
+#     dplyr::mutate(
+#       depth = dplyr::recode(
+#         depth, 
+#         "02"=-100,
+#         "04"=-100,
+#         "08"=-200,
+#         "20"=-500
+#       )
+#     ) %>%
+#     dplyr::distinct() %>% 
+#     readr::write_csv(file.path(out_dir, fname))
+# }
+
+reformat_error_table <- function(model, station, depth) {
+  model$error %>% 
+    tidyr::pivot_longer(
+      dplyr::everything(),
+      names_to = "model", 
+      values_to = "mse"
+    ) %>% 
+    dplyr::filter(model != "Kosugi_RSE") %>%
+    dplyr::mutate(
+      station = station, 
+      depth = depth,
+      model = dplyr::case_when(
+        model == "van_RSE" ~ "VG",
+        TRUE ~ "FX"
+      ),
+      mse = mse * mse
+    ) %>%
+    recode_depth()
+}
+
+
+process_zipped_data <- function(data_dir) {
+  
+  models <- list.files(data_dir, full.names = T, pattern = ".zip") %>% 
+    purrr::map(fit_all_depths) %>% 
+    dplyr::bind_rows() %>% 
+    dplyr::rowwise()
+  
+  params <- models %>% 
+    dplyr::mutate(tmp = list(params_to_csv(model, station, depth))) %>% 
+    dplyr::select(tmp) %>% 
+    tidyr::unnest(cols = tmp) %>% 
+    tidyr::unnest(cols = params)
+  
+  raw <- models %>% 
+    dplyr::mutate(tmp = list(raw_data_to_csv(model, station, depth))) %>% 
+    dplyr::select(tmp) %>% 
+    tidyr::unnest(cols = tmp)
+  
+  error <- models %>% 
+    dplyr::rowwise() %>%
+    dplyr::mutate(tmp = list(reformat_error_table(model, station, depth))) %>% 
+    dplyr::select(tmp) %>% 
+    tidyr::unnest(cols = tmp)
+  
+  list(
+    "params" = params,
+    "raw" = raw,
+    "error" = error
+  )
+}
+
+
