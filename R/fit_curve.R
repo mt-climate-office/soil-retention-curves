@@ -174,6 +174,16 @@ fit_all_depths <- function(zipped_data) {
       model = suppressWarnings(fit_soils(x))
       depth = stringr::str_extract(x, "\\d{2,3}cm")
       
+      if (is.na(depth)) {
+        depth = str_extract(x, "(?<=_)(04|08|20|36)(?=_)") %>%
+          dplyr::case_match(
+            "04" ~ "10cm",
+            "08" ~ "20cm",
+            "20" ~ "50cm", 
+            "36" ~ "91cm"
+          )
+      }
+      
       return(tibble::tibble(
         station = station,
         depth = depth, 

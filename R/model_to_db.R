@@ -117,4 +117,31 @@ process_zipped_data <- function(data_dir) {
   )
 }
 
+tables <- process_zipped_data("./data/zipped_data")
+write_to_db <- function(tables) {
+  con <-
+    DBI::dbConnect(RPostgres::Postgres(),
+                   host = Sys.getenv("MESONET_HOSTNAME"),
+                   dbname = Sys.getenv("MESONET_DBNAME"),
+                   user = Sys.getenv("MESONET_USER"),
+                   password = Sys.getenv("MESONET_PASSWORD")
+    )
+  
+  DBI::dbAppendTable(conn = con,
+                     name = DBI::Id(schema = "soil",
+                                    table = "model_error"),
+                     value = tables$error)
+  
+  DBI::dbAppendTable(conn = con,
+                     name = DBI::Id(schema = "soil",
+                                    table = "parameters"),
+                     value = tables$params)
+  
+  DBI::dbAppendTable(conn = con,
+                     name = DBI::Id(schema = "soil",
+                                    table = "raw_soil_data"),
+                     value = tables$raw)
+  
+  DBI::dbDisconnect(con)
+}
 
