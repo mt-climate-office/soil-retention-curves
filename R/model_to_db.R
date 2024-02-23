@@ -117,7 +117,6 @@ process_zipped_data <- function(data_dir) {
   )
 }
 
-tables <- process_zipped_data("./data/zipped_data")
 write_to_db <- function(tables) {
   con <-
     DBI::dbConnect(RPostgres::Postgres(),
@@ -144,4 +143,21 @@ write_to_db <- function(tables) {
   
   DBI::dbDisconnect(con)
 }
+
+
+the_whole_thing <- function(data_dir) {
+  process_zipped_data(data_dir) %>% 
+    write_to_db()
+  
+  tibble::tibble(
+    from = list.files(data_dir, full.names = T)
+  ) %>% 
+    dplyr::mutate(
+      to = stringr::str_replace(from,"zipped_data", "completed_uploads")
+    ) %>%
+    purrr::pmap(file.rename)
+}
+
+the_whole_thing("./data/zipped_data")
+
 
