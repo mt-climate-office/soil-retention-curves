@@ -130,7 +130,7 @@ write_to_db <- function(tables) {
                      name = DBI::Id(schema = "soil",
                                     table = "model_error"),
                      value = tables$error)
-  
+
   DBI::dbAppendTable(conn = con,
                      name = DBI::Id(schema = "soil",
                                     table = "parameters"),
@@ -159,5 +159,3 @@ the_whole_thing <- function(data_dir) {
 }
 
 the_whole_thing("./data/zipped_data")
-
-

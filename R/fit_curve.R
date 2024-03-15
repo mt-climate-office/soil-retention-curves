@@ -138,26 +138,6 @@ fit_soils = function(data){
   
 }
 
-
-name_from_data <- function(f) {
-  station <- dirname(f) %>%
-    dirname() %>%
-    basename() %>% 
-    stringr::str_split_1("_") %>% 
-    magrittr::extract(1)
-
-  depth <- basename(f) %>% 
-    stringr::str_split_1("_") %>% 
-    tail(2) %>%
-    head(1) %>% 
-    stringr::str_replace("cm", "") %>% 
-    stringr::str_pad(2, pad = "0")
-  
-  return(glue::glue(
-    "{station}{depth}.xlsx_FX_model.RDS"
-  ))
-}
-
 fit_all_depths <- function(zipped_data) {
   
   tmp <- tempdir()
@@ -171,8 +151,10 @@ fit_all_depths <- function(zipped_data) {
     file.path(tmp, "Post-Processing"), pattern = '.xlsx$', full.names = T
   ) %>% 
     purrr::map(function(x) {
+      
       model = suppressWarnings(fit_soils(x))
       depth = stringr::str_extract(x, "\\d{2,3}cm")
+      extra = stringr::str_detect(x, "_B.xlsx")
       
       if (is.na(depth)) {
         depth = str_extract(x, "(?<=_)(04|08|20|36)(?=_)") %>%
@@ -184,15 +166,20 @@ fit_all_depths <- function(zipped_data) {
           )
       }
       
-      return(tibble::tibble(
+      tibble::tibble(
         station = station,
-        depth = depth, 
-        model = list(model)
-      ))
+        depth = depth,
+        extra = extra,
+        model = list(model), 
+      )
     }) %>%
-    dplyr::bind_rows()
+    dplyr::bind_rows() %>% 
+    dplyr::group_by(depth) %>% 
+    dplyr::filter(if(dplyr::n() > 1) extra else TRUE) %>% 
+    dplyr::ungroup() %>% 
+    dplyr::select(-extra)
   
-  unlink(tmp, recursive = T)
+  unlink(file.path(tmp, "Post-Processing"), recursive = T)
   
   return(out)
 }
