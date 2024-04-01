@@ -157,8 +157,10 @@ fit_all_depths <- function(zipped_data) {
       extra = stringr::str_detect(x, "_B.xlsx")
       
       if (is.na(depth)) {
-        depth = str_extract(x, "(?<=_)(04|08|20|36)(?=_)") %>%
+        # depth = str_extract(x, "(?<=_)(02|04|08|20|36)(?=_)") %>%
+        depth = str_extract(x, "(?<=_)(02|04|08|20|36)(?=_)") %>%
           dplyr::case_match(
+            # "02" ~ "10cm",
             "04" ~ "10cm",
             "08" ~ "20cm",
             "20" ~ "50cm", 

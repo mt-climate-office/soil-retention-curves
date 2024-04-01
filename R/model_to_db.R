@@ -146,7 +146,7 @@ write_to_db <- function(tables) {
 
 
 the_whole_thing <- function(data_dir) {
-  process_zipped_data(data_dir) %>% 
+  process_zipped_data(data_dir) %>%
     write_to_db()
   
   tibble::tibble(
