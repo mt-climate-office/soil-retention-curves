@@ -148,7 +148,7 @@ fit_all_depths <- function(zipped_data) {
     magrittr::extract(1)
   
   out <- list.files(
-    file.path(tmp, "Post-Processing"), pattern = '.xlsx$', full.names = T
+    file.path(tmp), pattern = '*.xlsx$', full.names = T, recursive=T
   ) %>% 
     purrr::map(function(x) {
       
