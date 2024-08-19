@@ -154,7 +154,8 @@ fit_all_depths <- function(zipped_data) {
       
       model = suppressWarnings(fit_soils(x))
       depth = stringr::str_extract(x, "\\d{2,3}cm")
-      extra = stringr::str_detect(x, "_B.xlsx")
+      extra = stringr::str_detect(x, "_B.xlsx|_B_VC.xlsx")
+      is_vc = stringr::str_detect(x, "_VC.xlsx")
       
       if (is.na(depth)) {
         # depth = str_extract(x, "(?<=_)(02|04|08|20|36)(?=_)") %>%
@@ -172,14 +173,15 @@ fit_all_depths <- function(zipped_data) {
         station = station,
         depth = depth,
         extra = extra,
+        is_vc = is_vc,
         model = list(model), 
       )
     }) %>%
     dplyr::bind_rows() %>% 
     dplyr::group_by(depth) %>% 
-    dplyr::filter(if(dplyr::n() > 1) extra else TRUE) %>% 
+    dplyr::filter(if (dplyr::n() > 1) (extra & is_vc) | is_vc else TRUE) %>% 
     dplyr::ungroup() %>% 
-    dplyr::select(-extra)
+    dplyr::select(-extra, -is_vc)
   
   unlink(file.path(tmp, "Post-Processing"), recursive = T)
   

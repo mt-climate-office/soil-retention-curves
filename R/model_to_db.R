@@ -126,6 +126,8 @@ write_to_db <- function(tables) {
                    password = Sys.getenv("MESONET_PASSWORD")
     )
   
+  # TODO Implement something like this. 
+  # "DELETE FROM soil.model_error WHERE station = 'aceabsar' "
   DBI::dbAppendTable(conn = con,
                      name = DBI::Id(schema = "soil",
                                     table = "model_error"),
