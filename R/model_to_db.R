@@ -125,23 +125,63 @@ write_to_db <- function(tables) {
                    user = Sys.getenv("MESONET_USER"),
                    password = Sys.getenv("MESONET_PASSWORD")
     )
-  
-  # TODO Implement something like this. 
-  # "DELETE FROM soil.model_error WHERE station = 'aceabsar' "
-  DBI::dbAppendTable(conn = con,
-                     name = DBI::Id(schema = "soil",
-                                    table = "model_error"),
-                     value = tables$error)
 
-  DBI::dbAppendTable(conn = con,
-                     name = DBI::Id(schema = "soil",
-                                    table = "parameters"),
-                     value = tables$params)
+  tryCatch({
+    DBI::dbAppendTable(conn = con,
+                       name = DBI::Id(schema = "soil",
+                                      table = "model_error"),
+                       value = tables$error)
+  }, error = function(e) {
+    if (grepl("unique constraint", e$message, ignore.case = TRUE)) {
+      print("Records already exist in error table. Deleting original and uploading updated records.")
+      station_names <- unique(tables$error$station)
+      stations_str <- paste(shQuote(station_names), collapse = ", ")
+      query <- sprintf("DELETE FROM soil.model_error WHERE station IN (%s)", stations_str)
+      DBI::dbExecute(con, query)
+      
+      DBI::dbAppendTable(conn = con,
+                         name = DBI::Id(schema = "soil",
+                                        table = "model_error"),
+                         value = tables$error)
+    } else {
+      stop(e)
+    } 
+  })
+
+  
+  tryCatch({
+    DBI::dbAppendTable(conn = con,
+                       name = DBI::Id(schema = "soil",
+                                      table = "parameters"),
+                       value = tables$params)
+  }, error = function(e) {
+    if (grepl("unique constraint", e$message, ignore.case = TRUE)) {
+      print("Records already exist in parameters table. Deleting original and uploading updated records.")
+      station_names <- unique(tables$params$station)
+      stations_str <- paste(shQuote(station_names), collapse = ", ")
+      query <- sprintf("DELETE FROM soil.parameters WHERE station IN (%s)", stations_str)
+      DBI::dbExecute(con, query)
+      
+      DBI::dbAppendTable(conn = con,
+                         name = DBI::Id(schema = "soil",
+                                        table = "parameters"),
+                         value = tables$params)
+    } else {
+      stop(e)
+    } 
+  })
+
+
+  station_names <- unique(tables$raw$station)
+  stations_str <- paste(shQuote(station_names), collapse = ", ")
+  query <- sprintf("DELETE FROM soil.raw_soil_data WHERE station IN (%s)", stations_str)
+  DBI::dbExecute(con, query)
   
   DBI::dbAppendTable(conn = con,
                      name = DBI::Id(schema = "soil",
                                     table = "raw_soil_data"),
                      value = tables$raw)
+
   
   DBI::dbDisconnect(con)
 }
