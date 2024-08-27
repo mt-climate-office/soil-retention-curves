@@ -175,6 +175,7 @@ fit_all_depths <- function(zipped_data) {
         extra = extra,
         is_vc = is_vc,
         model = list(model), 
+        f = basename(x)
       )
     }) %>%
     dplyr::bind_rows() %>% 
@@ -183,7 +184,8 @@ fit_all_depths <- function(zipped_data) {
     dplyr::ungroup() %>% 
     dplyr::select(-extra, -is_vc)
   
-  unlink(file.path(tmp, "Post-Processing"), recursive = T)
+  list.files(tmp, pattern = "Post-Processing", include.dirs = T, full.names = T) %>%
+    purrr::map(unlink, recursive = TRUE)
   
   return(out)
 }
