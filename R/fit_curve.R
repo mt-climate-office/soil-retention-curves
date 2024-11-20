@@ -153,7 +153,7 @@ fit_all_depths <- function(zipped_data) {
     purrr::map(function(x) {
       
       model = suppressWarnings(fit_soils(x))
-      depth = stringr::str_extract(x, "\\d{2,3}cm")
+      depth = stringr::str_extract(x, "\\d{1,3}cm")
       extra = stringr::str_detect(x, "_B.xlsx|_B_VC.xlsx")
       is_vc = stringr::str_detect(x, "_VC.xlsx")
       
