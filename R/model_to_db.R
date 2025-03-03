@@ -201,3 +201,44 @@ the_whole_thing <- function(data_dir) {
 }
 
 the_whole_thing("./data/zipped_data")
+
+upload_old_porosity <- function() {
+  out <- list.files("./data/Raw_Data/", full.names = T) %>%
+    purrr::map(function(x) {
+      print(x)
+      
+      porosity = get_porosity(x)
+      
+      # depth = str_extract(x, "(?<=_)(02|04|08|20|36)(?=_)") %>%
+      depth = x %>%
+        basename() %>% 
+        tools::file_path_sans_ext() %>% 
+        stringr::str_sub(9)
+      
+      
+      station <- x %>%
+        basename() %>% 
+        tools::file_path_sans_ext() %>%
+        stringr::str_sub(end=-3) 
+      
+      if (is.na(depth)) {
+        stop(glue::glue("No depth for {station}"))
+      }
+      
+      
+      tibble::tibble(
+        station = station,
+        depth =depth,
+        porosity=porosity
+      )
+    }) %>%
+    dplyr::bind_rows() %>%
+    recode_depth()
+  
+  
+  DBI::dbAppendTable(conn = con,
+                     name = DBI::Id(schema = "soil",
+                                    table = "porosity"),
+                     value = out)
+  
+}

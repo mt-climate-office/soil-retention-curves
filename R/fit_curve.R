@@ -138,6 +138,17 @@ fit_soils = function(data){
   
 }
 
+
+get_porosity <- function(x) {
+  read_excel_allsheets(x) %>%
+    purrr::pluck("Information") %>%
+    dplyr::filter(
+      `Parameter Name` == "Initial water content [Vol%]:"
+    ) %>%
+    dplyr::pull(Value) %>%
+    as.numeric()
+}
+
 fit_all_depths <- function(zipped_data) {
   
   tmp <- tempdir()
@@ -156,6 +167,7 @@ fit_all_depths <- function(zipped_data) {
       depth = stringr::str_extract(x, "\\d{1,3}cm")
       extra = stringr::str_detect(x, "_B.xlsx|_B_VC.xlsx")
       is_vc = stringr::str_detect(x, "_VC.xlsx")
+      porosity = get_porosity(x)
       
       if (is.na(depth)) {
         # depth = str_extract(x, "(?<=_)(02|04|08|20|36)(?=_)") %>%
@@ -175,7 +187,8 @@ fit_all_depths <- function(zipped_data) {
         extra = extra,
         is_vc = is_vc,
         model = list(model), 
-        f = basename(x)
+        f = basename(x),
+        porosity = porosity
       )
     }) %>%
     dplyr::bind_rows() %>% 
@@ -189,9 +202,5 @@ fit_all_depths <- function(zipped_data) {
   
   return(out)
 }
-
-
-
-
 
 
