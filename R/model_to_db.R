@@ -88,7 +88,7 @@ reformat_error_table <- function(model, station, depth) {
 
 process_zipped_data <- function(data_dir) {
   
-  models <- list.files(data_dir, full.names = T, pattern = ".zip") %>% 
+  models <- list.files(data_dir, full.names = T, pattern = ".zip") %>%
     purrr::map(fit_all_depths) %>% 
     dplyr::bind_rows() %>% 
     dplyr::rowwise()
@@ -110,10 +110,15 @@ process_zipped_data <- function(data_dir) {
     dplyr::select(tmp) %>% 
     tidyr::unnest(cols = tmp)
   
+  porosity <- models %>%
+    dplyr::select(station, depth, porosity) %>%
+    recode_depth()
+  
   list(
     "params" = params,
     "raw" = raw,
-    "error" = error
+    "error" = error,
+    "porosity" = porosity
   )
 }
 
@@ -170,6 +175,28 @@ write_to_db <- function(tables) {
       stop(e)
     } 
   })
+  
+  tryCatch({
+    DBI::dbAppendTable(conn = con,
+                       name = DBI::Id(schema = "soil",
+                                      table = "porosity"),
+                       value = tables$porosity)
+  }, error = function(e) {
+    if (grepl("unique constraint", e$message, ignore.case = TRUE)) {
+      print("Records already exist in porosity table. Deleting original and uploading updated records.")
+      station_names <- unique(tables$porosity$station)
+      stations_str <- paste(shQuote(station_names), collapse = ", ")
+      query <- sprintf("DELETE FROM soil.porosity WHERE station IN (%s)", stations_str)
+      DBI::dbExecute(con, query)
+      
+      DBI::dbAppendTable(conn = con,
+                         name = DBI::Id(schema = "soil",
+                                        table = "porosity"),
+                         value = tables$porosity)
+    } else {
+      stop(e)
+    } 
+  })
 
 
   station_names <- unique(tables$raw$station)
@@ -183,10 +210,12 @@ write_to_db <- function(tables) {
                      value = tables$raw)
 
   
+  
   DBI::dbDisconnect(con)
 }
 
 
+tables <- process_zipped_data("./data/completed_uploads")
 the_whole_thing <- function(data_dir) {
   process_zipped_data(data_dir) %>%
     write_to_db()

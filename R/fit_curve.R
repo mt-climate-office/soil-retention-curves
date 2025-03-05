@@ -157,7 +157,8 @@ fit_all_depths <- function(zipped_data) {
   station <- basename(zipped_data) %>% 
     stringr::str_split_1("_") %>% 
     magrittr::extract(1)
-  
+
+  print(glue::glue("Working on processing {station}..."))
   out <- list.files(
     file.path(tmp), pattern = '*.xlsx$', full.names = T, recursive=T
   ) %>% 
