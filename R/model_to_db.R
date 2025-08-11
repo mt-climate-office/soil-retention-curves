@@ -215,7 +215,7 @@ write_to_db <- function(tables) {
 }
 
 
-tables <- process_zipped_data("./data/completed_uploads")
+#  tables <- process_zipped_data("./data/completed_uploads")
 the_whole_thing <- function(data_dir) {
   process_zipped_data(data_dir) %>%
     write_to_db()
