@@ -215,7 +215,11 @@ write_to_db <- function(tables) {
 }
 
 
+<<<<<<< HEAD
 #  tables <- process_zipped_data("./data/completed_uploads")
+=======
+# tables <- process_zipped_data("./data/completed_uploads")
+>>>>>>> 307b5be91410a21703bc315cc54bc8e32787cfe5
 the_whole_thing <- function(data_dir) {
   process_zipped_data(data_dir) %>%
     write_to_db()
@@ -242,7 +246,14 @@ upload_old_porosity <- function() {
       depth = x %>%
         basename() %>% 
         tools::file_path_sans_ext() %>% 
-        stringr::str_sub(9)
+        stringr::str_sub(9) %>%
+        dplyr::case_match(
+          "02" ~ "10cm",
+          "04" ~ "10cm",
+          "08" ~ "20cm",
+          "20" ~ "50cm", 
+          "36" ~ "91cm"
+        )
       
       
       station <- x %>%
@@ -265,9 +276,27 @@ upload_old_porosity <- function() {
     recode_depth()
   
   
-  DBI::dbAppendTable(conn = con,
-                     name = DBI::Id(schema = "soil",
-                                    table = "porosity"),
-                     value = out)
+  tryCatch({
+    DBI::dbAppendTable(conn = con,
+                       name = DBI::Id(schema = "soil",
+                                      table = "porosity"),
+                       value = out)
+  }, error = function(e) {
+    if (grepl("unique constraint", e$message, ignore.case = TRUE)) {
+      print("Records already exist in porosity table. Deleting original and uploading updated records.")
+      station_names <- unique(out$station)
+      stations_str <- paste(shQuote(station_names), collapse = ", ")
+      query <- sprintf("DELETE FROM soil.porosity WHERE station IN (%s)", stations_str)
+      DBI::dbExecute(con, query)
+      
+      DBI::dbAppendTable(conn = con,
+                         name = DBI::Id(schema = "soil",
+                                        table = "porosity"),
+                         value = out)
+    } else {
+      stop(e)
+    } 
+  })
+  
   
 }
