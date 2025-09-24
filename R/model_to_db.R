@@ -215,11 +215,6 @@ write_to_db <- function(tables) {
 }
 
 
-<<<<<<< HEAD
-#  tables <- process_zipped_data("./data/completed_uploads")
-=======
-# tables <- process_zipped_data("./data/completed_uploads")
->>>>>>> 307b5be91410a21703bc315cc54bc8e32787cfe5
 the_whole_thing <- function(data_dir) {
   process_zipped_data(data_dir) %>%
     write_to_db()

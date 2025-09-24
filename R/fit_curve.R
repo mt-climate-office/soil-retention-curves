@@ -163,7 +163,7 @@ fit_all_depths <- function(zipped_data) {
     file.path(tmp), pattern = '*.xlsx$', full.names = T, recursive=T
   ) %>% 
     purrr::map(function(x) {
-      
+      print(x)
       model = suppressWarnings(fit_soils(x))
       depth = stringr::str_extract(x, "\\d{1,3}cm")
       extra = stringr::str_detect(x, "_B.xlsx|_B_VC.xlsx")
